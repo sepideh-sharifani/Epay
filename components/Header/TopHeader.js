@@ -24,11 +24,17 @@ const TopHeader = () => {
 	return (
 		<div className={styles.top}>
 			<div className={styles.top_container}>
-				<div></div>
+				<div>
+					<Link
+						href='/'
+						className={styles.logo}>
+						<img src={'/images/Epay_Logo.png'} />
+					</Link>
+				</div>
 				<ul className={styles.top_list}>
 					<li className={styles.li}>
 						<img
-							src=''
+							src={'/images/flag.png'}
 							alt='flag'
 						/>
 						<span>USA/ usd</span>
@@ -42,12 +48,6 @@ const TopHeader = () => {
 					</li>
 					<li className={styles.li}>
 						<span>Help</span>
-					</li>
-					<li className={styles.li}>
-						<BsSuitHeart />
-						<Link href='/profile/wishList'>
-							<span>wishList</span>
-						</Link>
 					</li>
 					<li
 						className={styles.li}

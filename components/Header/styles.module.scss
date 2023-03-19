@@ -15,7 +15,6 @@
 .top {
 	background: $dark-blue;
 	color: $white;
-	border-bottom: 1px solid;
 	&_container {
 		max-width: 95%;
 		margin: 0 auto;
@@ -23,7 +22,13 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		.logo {
+			img {
+				width: 50px;
+			}
+		}
 	}
+
 	&_list {
 		display: flex;
 		gap: 15px;
@@ -90,6 +95,7 @@
 	color: $black;
 	width: 250px;
 	position: absolute;
+	background-color: $white;
 	top: 100%;
 	right: 0;
 	box-shadow: -5px 10px 30px #888888;
@@ -159,6 +165,128 @@
 					font-size: 17px;
 				}
 			}
+		}
+	}
+}
+.main {
+	position: relative;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	box-shadow: -5px 10px 30px #888888;
+	&__container {
+		max-width: 1300px;
+		margin: 0 auto;
+		padding: 0 20px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 30px;
+		width: 100%;
+	}
+	.rightSide {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 20px;
+	}
+	.category {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 60px;
+		background-color: $dark-blue;
+		margin-top: 18px;
+		padding: 2px 30px;
+		border-top-right-radius: 5px;
+		border-top-left-radius: 5px;
+		color: $white;
+		span {
+			font-size: 15px;
+		}
+	}
+	.search {
+		display: flex;
+		align-items: center;
+		flex: 1;
+		background-color: $light-gray;
+		height: 35px;
+		border-radius: 5px;
+		color: $white;
+		input {
+			border: none;
+			outline: none;
+			width: 350px;
+			height: 100%;
+			background: transparent;
+			padding: 6px;
+		}
+		&__icon {
+			width: 50px;
+			height: 100%;
+			background-color: $dark-blue;
+			border-top-right-radius: 5px;
+			border-bottom-right-radius: 5px;
+			cursor: pointer;
+			display: grid;
+			place-items: center;
+			color: $white;
+			svg {
+				width: 20px;
+				height: 20px;
+			}
+		}
+	}
+	.icons {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 10px;
+		margin: 5px;
+		svg {
+			width: 20px;
+			height: 20px;
+			&:hover {
+				fill: $yellow;
+			}
+		}
+		&__cart {
+			position: absolute;
+			top: -5px;
+			right: 25px;
+			background: $dark-blue;
+			width: 15px;
+			height: 15px;
+			font-size: 12px;
+			border-radius: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: $white;
+		}
+		&__wishlist {
+			position: absolute;
+			top: -5px;
+			right: -10px;
+			background: $dark-blue;
+			width: 15px;
+			height: 15px;
+			font-size: 12px;
+			border-radius: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: $white;
+		}
+	}
+	@media (max-width: 870px) {
+		.category {
+			display: none;
+		}
+		.rightSide {
+			margin: 0 auto;
 		}
 	}
 }
