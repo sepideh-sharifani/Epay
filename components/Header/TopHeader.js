@@ -5,9 +5,10 @@ import { RiAccountPinCircleLine, RiArrowDropDownFill } from 'react-icons/ri';
 import Link from 'next/link';
 import { useState, useEffect, useRef } from 'react';
 import UserMenu from './UserMenu';
+import { useSession } from 'next-auth/react';
 
-const TopHeader = () => {
-	const [loggedIn, setLoggedIn] = useState(true);
+const TopHeader = ({ country }) => {
+	const { data: session } = useSession();
 	const [visible, setVisible] = useState(false);
 	const menuRef = useRef();
 
@@ -34,7 +35,7 @@ const TopHeader = () => {
 				<ul className={styles.top_list}>
 					<li className={styles.li}>
 						<img
-							src={'/images/flag.png'}
+							src='/images/flag.png'
 							alt='flag'
 						/>
 						<span>USA/ usd</span>
@@ -53,14 +54,14 @@ const TopHeader = () => {
 						className={styles.li}
 						ref={menuRef}
 						onClick={(e) => setVisible(!visible)}>
-						{loggedIn ? (
+						{session ? (
 							<li className={styles.li}>
 								<div className={styles.flex}>
 									<img
 										alt='user'
-										src='https://img.freepik.com/premium-vector/female-user-profile-avatar-is-woman-character-screen-saver-with-emotions_505620-617.jpg'
+										src={session.user.image}
 									/>
-									<span>Sepideh</span>
+									<span>{session.user.name}</span>
 									<RiArrowDropDownFill />
 								</div>
 							</li>
@@ -73,7 +74,7 @@ const TopHeader = () => {
 								</div>
 							</li>
 						)}
-						{visible && <UserMenu loggedIn={loggedIn} />}
+						{visible && <UserMenu loggedIn={session} />}
 					</li>
 				</ul>
 			</div>

@@ -4,16 +4,48 @@ import { RiSearch2Line } from 'react-icons/ri';
 import { BsCart, BsSuitHeart } from 'react-icons/bs';
 import { useSelector } from 'react-redux';
 import { TbCategory } from 'react-icons/tb';
+import useMediaQuery from '../../hooks/useMediaQuery';
+import { HiMenu } from 'react-icons/hi';
+import { useState, useRef, useEffect } from 'react';
+import ProductMenu from './ProductMenu';
 
 function Main() {
+	const mediaQuery = useMediaQuery('(min-width:870px)');
+	const [visible, setVisible] = useState(false);
 	const { cart } = useSelector((state) => ({ ...state }));
+	const menuRef = useRef();
+
+	useEffect(() => {
+		if (window.innerWidth < 870) {
+			const closeMenu = (e) => {
+				if (!menuRef.current.contains(e.target)) {
+					setVisible(false);
+				}
+			};
+			document.addEventListener('mousedown', closeMenu);
+			return () => document.removeEventListener('mousedown', closeMenu);
+		}
+	}, []);
+
 	return (
 		<div className={styles.main}>
 			<div className={styles.main__container}>
-				<div className={styles.category}>
-					<TbCategory />
-					<span>All categories</span>
-				</div>
+				{mediaQuery ? (
+					<div className={styles.category}>
+						<TbCategory />
+						<span>All categories</span>
+					</div>
+				) : (
+					<>
+						<div
+							className={styles.productMenu}
+							ref={menuRef}>
+							<HiMenu onClick={(e) => setVisible(!visible)} />
+						</div>
+						{visible && <ProductMenu />}
+					</>
+				)}
+
 				<div className={styles.rightSide}>
 					<div className={styles.search}>
 						<input
