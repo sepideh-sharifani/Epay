@@ -1,9 +1,9 @@
-import axios from 'axios';
 import { Inter } from 'next/font/google';
 import styles from 'styles/Home.module.scss';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import { useSession, signIn, signOut } from 'next-auth/react';
+import { useSession } from 'next-auth/react';
+import Main from '../components/home';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -12,7 +12,11 @@ export default function Home() {
 	return (
 		<>
 			<Header />
-			{session ? 'you are logged in' : 'you are not logged in'}
+			<div className={styles.home}>
+				<div className={styles.mainContainer}>
+					<Main />
+				</div>
+			</div>
 			<Footer />
 		</>
 	);

@@ -10,20 +10,27 @@ import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 import { getProviders } from 'next-auth/react';
 import { signIn } from 'next-auth/react';
+import SignUpLoader from '../components/Loader/SignUpLoader';
+import Router from 'next/router';
 
 const initialState = {
 	login_email: '',
 	login_password: '',
+	login_error: '',
 };
 
 const signin = ({ providers }) => {
+	const [loading, setLoading] = useState(false);
 	const [showPassword, setShowPassword] = useState(false);
 	const [user, setUser] = useState(initialState);
-	const { login_email, login_password } = user;
+	const { login_email, login_password, login_error } = user;
 
 	const handleChange = (e) => {
 		const { name, value } = e.target;
 		setUser({ ...user, [name]: value });
+	};
+	const handleClose = async () => {
+		setLoading(true);
 	};
 
 	const SignInSchema = Yup.object().shape({
@@ -36,8 +43,26 @@ const signin = ({ providers }) => {
 			.min(4, 'Password is too short - should be 4 chars minimum'),
 	});
 
+	const signInHandler = async () => {
+		setLoading(true);
+		let options = {
+			redirect: false,
+			email: login_email,
+			password: login_password,
+		};
+		const res = await signIn('credentials', options);
+		setUser({ ...user, success: '', error: '' });
+		setLoading(false);
+		if (res?.error) {
+			setLoading(false);
+			setUser({ ...user, login_error: res?.error });
+		} else {
+			return Router.back;
+		}
+	};
 	return (
 		<>
+			{loading && <SignUpLoader loading={loading} />}
 			<section className={styles.login}>
 				<div className={styles.login__container}>
 					<div className={styles.login__main}>
@@ -50,7 +75,10 @@ const signin = ({ providers }) => {
 						</div>
 						<div className={styles.right}>
 							<Link href='/'>
-								<AiOutlineClose className={styles.close} />
+								<AiOutlineClose
+									onClick={() => handleClose()}
+									className={styles.close}
+								/>
 							</Link>
 
 							<img
@@ -62,7 +90,8 @@ const signin = ({ providers }) => {
 							<Formik
 								enableReinitialize
 								initialValues={{ login_email, login_password }}
-								validationSchema={SignInSchema}>
+								validationSchema={SignInSchema}
+								onSubmit={() => signInHandler()}>
 								{({ errors, touched }) => (
 									<Form className={styles.form}>
 										<h4>Login</h4>
@@ -109,22 +138,9 @@ const signin = ({ providers }) => {
 									</Form>
 								)}
 							</Formik>
-							<div className={styles.socials}>
-								{Object.values(providers).map((provider) => (
-									<div key={provider.name}>
-										<button
-											className={styles.btn}
-											onClick={() => signIn(provider.id)}>
-											<img
-												className={styles.img}
-												src='./images/google.png'
-											/>
-											Sign in with {provider.name}
-										</button>
-									</div>
-								))}
+							<div className={styles.error}>
+								{login_error && <span>{login_error}</span>}
 							</div>
-
 							<Link
 								className={styles.text}
 								href='#'>

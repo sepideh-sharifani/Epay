@@ -16,7 +16,7 @@
 	}
 	&__main {
 		width: 100%;
-		height: 40rem;
+		min-height: 40rem;
 		border-radius: 5px;
 		overflow: hidden;
 		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -24,10 +24,24 @@
 		justify-content: center;
 		align-items: center;
 		background-color: $white;
+		position: relative;
+		.close {
+			position: absolute;
+			top: 15px;
+			right: 1rem;
+			height: 20px;
+			width: 20px;
+			border: 2px solid $dark-blue;
+			border-radius: 50%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			cursor: pointer;
+		}
 		.left {
 			width: 40%;
 			height: 100%;
-			padding: 18px 0;
+			// padding: 18px 0;
 			animation: slide-down 0.5s ease;
 			background-color: $light-blue;
 			.img1 {
@@ -42,36 +56,52 @@
 		.right {
 			position: relative;
 			width: 60%;
-			height: 100%;
+			min-height: 100%;
 			display: flex;
 			flex-grow: 3;
 			justify-content: center;
 			align-items: center;
 			flex-direction: column;
 			animation: slide-up 0.5s ease;
-			.close {
-				position: absolute;
-				top: 1rem;
-				right: 1rem;
-				height: 2rem;
-				width: 2rem;
-				border: 2px solid $dark-blue;
-				border-radius: 50%;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				cursor: pointer;
-			}
 			.img1 {
 				display: none;
 			}
 			.form {
 				font-size: 1.6rem;
 				display: flex;
+				justify-content: center;
+				align-items: center;
 				flex-direction: column;
 				gap: 10px;
 				width: 90%;
 				padding: 0 20px;
+				.userImg {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					position: relative;
+					width: 100px;
+					height: 100px;
+					border-radius: 50%;
+					border: 1px solid $dark-blue;
+					cursor: pointer;
+					img {
+						width: 100px;
+						height: 100px;
+						border-radius: 50%;
+					}
+					&:hover {
+						opacity: 0.5;
+					}
+					svg {
+						position: absolute;
+						color: $dark-blue;
+						top: 55px;
+					}
+				}
+				.userInput {
+					display: none;
+				}
 				input {
 					position: relative;
 					outline: none;
@@ -86,6 +116,7 @@
 				}
 				.password {
 					position: relative;
+					width: 100%;
 					svg {
 						position: absolute;
 						top: 1rem;
@@ -148,6 +179,14 @@
 				.img {
 					width: 30px;
 				}
+			}
+			.success {
+				font-size: 15px;
+				color: $yellow;
+			}
+			.error {
+				font-size: 15px;
+				color: $dark-red;
 			}
 		}
 		@media (max-width: 1000px) {

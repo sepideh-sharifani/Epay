@@ -2,6 +2,8 @@ import { useSession } from 'next-auth/react';
 import Link from 'next/link';
 import styles from './styles.module.scss';
 import { signOut, signIn } from 'next-auth/react';
+import signup from '../../pages/signup';
+import signin from '../../pages/signin';
 
 function UserMenu({ loggedIn }) {
 	const { data: session } = useSession();
@@ -44,7 +46,9 @@ function UserMenu({ loggedIn }) {
 				</>
 			) : (
 				<div className={styles.flex}>
-					<button>Register</button>
+					<Link href='/signup'>
+						<button>Register</button>
+					</Link>
 					<button onClick={signIn}>Login</button>
 				</div>
 			)}

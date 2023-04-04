@@ -51,8 +51,8 @@
 				border-radius: 50%;
 			}
 			svg {
-				width: 15px;
-				height: 15px;
+				width: 20px;
+				height: 20px;
 				fill: $white;
 			}
 			span {
@@ -173,11 +173,10 @@
 	height: 50px;
 	display: flex;
 	align-items: center;
-	box-shadow: -5px 10px 5px #c7c7c7;
 	&__container {
 		max-width: 1300px;
 		margin: 0 auto;
-		padding: 0 20px;
+		padding: 0 18px;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -204,12 +203,13 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		gap: 60px;
+		gap: 15px;
 		background-color: $dark-blue;
 		margin-top: 18px;
 		padding: 2px 30px;
 		border-top-right-radius: 5px;
 		border-top-left-radius: 5px;
+		flex-basis: 250px;
 		color: $white;
 		span {
 			font-size: 15px;
@@ -309,9 +309,8 @@
 	width: 250px;
 	position: absolute;
 	background-color: $white;
-	top: 70%;
-	left: 30px;
-	box-shadow: -5px 10px 30px #888888;
+	top: 20px;
+	left: 40px;
 	z-index: 99;
 	display: flex;
 	flex-direction: column;
@@ -319,17 +318,58 @@
 	padding: 5px;
 	border-radius: 7px;
 	cursor: pointer;
-	ul {
-		li {
-			height: 30px;
-			a {
-				width: 100%;
-				padding-left: 10px;
+	direction: ltr;
+
+	.menu {
+		grid-area: menu;
+		height: 595px;
+		background: $white;
+		width: 249px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+		border: 0.5px solid rgb(197, 196, 196);
+		border-radius: 10px;
+		overflow-y: scroll;
+		overflow-x: hidden;
+		&::-webkit-scrollbar {
+			width: 15px;
+			height: 50px;
+			transform: rotateX('-180deg');
+		}
+		&::-webkit-scrollbar-track {
+			box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+			border-radius: 20px;
+		}
+		&::-webkit-scrollbar-thumb {
+			background-color: $dark-blue;
+			border: 1px solid rgb(174, 182, 190);
+			border-radius: 20px;
+		}
+
+		&__links {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 5px;
+		}
+		&__icons {
+			svg {
+				width: 15px;
+				height: 15px;
+				margin: 0 10px 0 10px;
 			}
+		}
+		&__items {
+			font-size: 13px;
 			&:hover {
-				background: #e3e1e1;
-				border-radius: 10px;
+				color: $yellow;
 			}
+		}
+		&__itemsBorder {
+			width: 249px;
+			border: 0.5px solid rgb(197, 196, 196);
 		}
 	}
 }

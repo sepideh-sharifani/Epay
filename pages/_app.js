@@ -28,6 +28,10 @@ export default function App({
 					rel='icon'
 					href='/favicon.ico'
 				/>
+				<script
+					src='https://www.google.com/recaptcha/api.js'
+					async
+					defer></script>
 			</Head>
 			<SessionProvider session={session}>
 				<Provider store={store}>
