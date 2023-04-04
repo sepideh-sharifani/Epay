@@ -21,7 +21,7 @@ export default function MainSwiper() {
 				navigation={true}
 				modules={[Autoplay, Pagination, Navigation]}
 				className='mainSwiper'>
-				{[...Array(5).keys()].map((i) => (
+				{[...Array(6).keys()].map((i) => (
 					<SwiperSlide>
 						<img
 							src={`/images/slider/slide ${i + 1}.jpg`}

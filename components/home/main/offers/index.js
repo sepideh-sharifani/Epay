@@ -3,8 +3,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
-import { offersArray } from './data';
-import useMediaQuery from '../../../hooks/useMediaQuery';
+import { offersArray } from '../../../../data/data.js';
+import useMediaQuery from '../../../../hooks/useMediaQuery';
 
 import { Autoplay, FreeMode, Navigation, Pagination } from 'swiper';
 

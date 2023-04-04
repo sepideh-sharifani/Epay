@@ -242,3 +242,163 @@ export const menuItem = [
 		images: [],
 	},
 ];
+
+export const offersArray = [
+	{
+		image: '/images/offers/1.jpg',
+		price: '200.25',
+		discount: '17',
+	},
+	{
+		image: '/images/offers/2.jpg',
+		price: '150.25',
+		discount: '20',
+	},
+	{
+		image: '/images/offers/3.jpg',
+		price: '2.25',
+		discount: '8',
+	},
+	{
+		image: '/images/offers/4.jpg',
+		price: '20.25',
+		discount: '9',
+	},
+	{
+		image: '/images/offers/5.jpg',
+		price: '80.57',
+		discount: '15',
+	},
+	{
+		image: '/images/offers/6.jpg',
+		price: '65.47',
+		discount: '20',
+	},
+	{
+		image: '/images/offers/7.jpg',
+		price: '65.47',
+		discount: '20',
+	},
+];
+
+export const flashSaleItems = [
+	{
+		image: '/images/flashSale/1.jpg',
+		discount: '27',
+		price: '65.47',
+		link: '',
+		sold: '50',
+	},
+	{
+		image: '/images/flashSale/2.jpg',
+		discount: '27',
+		link: '',
+		price: '65.47',
+		sold: '50',
+	},
+	{
+		image: '/images/flashSale/3.jpg',
+		discount: '27',
+		sold: '50',
+		price: '65.47',
+		link: '',
+	},
+	{
+		image: '/images/flashSale/4.jpg',
+		discount: '27',
+		sold: '50',
+		price: '65.47',
+		link: '',
+	},
+	{
+		image: '/images/flashSale/5.jpg',
+		discount: '27',
+		sold: '50',
+		price: '65.47',
+		link: '',
+	},
+	{
+		image: '/images/flashSale/6.jpg',
+		discount: '27',
+		sold: '50',
+		price: '65.47',
+		link: '',
+	},
+	{
+		image: '/images/flashSale/7.jpg',
+		discount: '27',
+		sold: '50',
+		price: '65.47',
+		link: '',
+	},
+	{
+		image: '/images/flashSale/8.jpg',
+		discount: '27',
+		sold: '50',
+		price: '65.47',
+		link: '',
+	},
+	{
+		image: '/images/flashSale/9.jpg',
+		discount: '27',
+		sold: '50',
+		price: '65.47',
+		link: '',
+	},
+	{
+		image: '/images/flashSale/10.jpg',
+		discount: '27',
+		sold: '50',
+		price: '65.47',
+		link: '',
+	},
+	{
+		image: '/images/flashSale/11.jpg',
+		discount: '27',
+		sold: '50',
+		price: '65.47',
+		link: '',
+	},
+	{
+		image: '/images/flashSale/12.jpg',
+		discount: '27',
+		sold: '50',
+		price: '65.47',
+		link: '',
+	},
+	{
+		image: '/images/flashSale/13.jpg',
+		discount: '27',
+		sold: '50',
+		price: '65.47',
+		link: '',
+	},
+	{
+		image: '/images/flashSale/14.jpg',
+		discount: '27',
+		sold: '50',
+		price: '65.47',
+		link: '',
+	},
+	{
+		image: '/images/flashSale/15.jpg',
+		discount: '27',
+		sold: '50',
+		price: '65.47',
+		link: '',
+	},
+	{
+		image: '/images/flashSale/16.jpg',
+		discount: '27',
+		sold: '50',
+		price: '65.47',
+		link: '',
+	},
+	{
+		image: '/images/flashSale/17.jpg',
+		discount: '27',
+		sold: '50',
+		price: '65.47',
+		link: '',
+	},
+];

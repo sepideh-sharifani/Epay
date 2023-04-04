@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import styles from './styles.module.scss';
-import { menuItem } from '../home/menuList/data.js';
+import { menuItem } from '../../data/data.js';
 
 function ProductMenu() {
 	return (

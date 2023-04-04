@@ -1,0 +1,30 @@
+.countDown {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2px;
+	background: linear-gradient(
+		45deg,
+		rgba(114, 125, 208, 1) 12%,
+		rgba(203, 208, 254, 1) 55%
+	);
+	width: 120px;
+	height: 32px;
+	border-radius: 5px;
+	span {
+		color: $dark-blue;
+		font-size: 20px;
+		font-weight: 600;
+	}
+	b {
+		color: $dark-blue;
+		font-size: 20px;
+	}
+	@media (max-width: 600px) {
+		width: 90px;
+		height: 25px;
+		span {
+			font-size: 15px;
+		}
+	}
+}

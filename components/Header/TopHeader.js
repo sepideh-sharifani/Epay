@@ -69,7 +69,7 @@ const TopHeader = ({ country }) => {
 							<li className={styles.li}>
 								<div className={styles.flex}>
 									<RiAccountPinCircleLine />
-									<span>Account</span>
+									<span>SignIn/Login</span>
 									<RiArrowDropDownFill />
 								</div>
 							</li>
