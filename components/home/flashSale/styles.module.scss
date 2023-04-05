@@ -16,6 +16,9 @@
 			width: 30px;
 			height: 30px;
 		}
+		@media (max-width: 400px) {
+			flex-direction: column;
+		}
 	}
 	.main {
 		display: flex;
@@ -75,6 +78,7 @@
 		.flash {
 			position: absolute;
 			top: 0;
+			height: 60px;
 			left: 10px;
 			display: flex;
 			flex-direction: column;

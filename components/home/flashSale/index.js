@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper';
 import { flashSaleItems } from '../../../data/data.js';
-import Card from './card';
+import Card from './Card';
 
 function FlashSale() {
 	return (
@@ -17,7 +17,7 @@ function FlashSale() {
 					FLASH SALE
 					<MdFlashOn />
 				</h2>
-				<CountDown />
+				<CountDown date={new Date(2023, 4, 5, 25)} />
 			</div>
 			<div className={styles.main}>
 				<Swiper

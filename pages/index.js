@@ -5,6 +5,8 @@ import Header from '../components/Header';
 import { useSession } from 'next-auth/react';
 import Main from '../components/home/main';
 import FlashSale from '../components/home/flashSale';
+import ProductCategory from '../components/home/category';
+import Banner from '../components/home/banner';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -17,6 +19,8 @@ export default function Home() {
 				<div className={styles.mainContainer}>
 					<Main />
 					<FlashSale />
+					<ProductCategory />
+					<Banner />
 				</div>
 			</div>
 			<Footer />

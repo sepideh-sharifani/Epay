@@ -2,18 +2,23 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: 2px;
+	gap: 5px;
 	background: linear-gradient(
 		45deg,
 		rgba(114, 125, 208, 1) 12%,
 		rgba(203, 208, 254, 1) 55%
 	);
-	width: 120px;
-	height: 32px;
+	width: 125px;
+	margin: 5px 0;
 	border-radius: 5px;
+	.days {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 	span {
 		color: $dark-blue;
-		font-size: 20px;
+		font-size: 15px;
 		font-weight: 600;
 	}
 	b {
@@ -21,8 +26,7 @@
 		font-size: 20px;
 	}
 	@media (max-width: 600px) {
-		width: 90px;
-		height: 25px;
+		height: 20px;
 		span {
 			font-size: 15px;
 		}

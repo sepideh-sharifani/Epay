@@ -402,3 +402,89 @@ export const flashSaleItems = [
 		link: '',
 	},
 ];
+
+export const productCategory = [
+	{
+		name: 'electronics',
+		images: [
+			{
+				image: '/images/category/electronics/1.png',
+			},
+			{
+				image: '/images/category/electronics/2.png',
+			},
+			{
+				image: '/images/category/electronics/3.png',
+			},
+			{
+				image: '/images/category/electronics/4.png',
+			},
+		],
+	},
+	{
+		name: 'health',
+		images: [
+			{
+				image: '/images/category/health/1.png',
+			},
+			{
+				image: '/images/category/health/2.png',
+			},
+			{
+				image: '/images/category/health/3.png',
+			},
+			{
+				image: '/images/category/health/4.png',
+			},
+		],
+	},
+	{
+		name: 'house appliances',
+		images: [
+			{
+				image: '/images/category/house appliances/1.png',
+			},
+			{
+				image: '/images/category/house appliances/2.png',
+			},
+			{
+				image: '/images/category/house appliances/3.png',
+			},
+			{
+				image: '/images/category/house appliances/4.png',
+			},
+		],
+	},
+	{
+		name: 'toys',
+		images: [
+			{
+				image: '/images/category/toys/1.png',
+			},
+			{
+				image: '/images/category/toys/2.png',
+			},
+			{
+				image: '/images/category/toys/3.png',
+			},
+			{
+				image: '/images/category/toys/4.png',
+			},
+		],
+	},
+];
+
+export const bannerData = [
+	{
+		title: 'Brutal Sale!',
+		image: '/images/banner/banner1.jpg',
+		description: 'Get your armchair now!',
+		description2: 'variety of colors and models',
+	},
+	{
+		title: 'Brutal Sale!',
+		image: '/images/banner/banner2.jpg',
+		description: 'Get your dress now!',
+		description2: 'variety of colors and sizes',
+	},
+];
