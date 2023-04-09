@@ -3,3 +3,30 @@
 	background-color: $light-gray;
 	box-sizing: border-box;
 }
+
+.product {
+	.top {
+		&__header {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			h6 {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				align-self: flex-end;
+				color: $medium-blue;
+				cursor: pointer;
+			}
+		}
+		border-bottom: 1px solid rgb(195, 194, 194);
+	}
+	.productContainer {
+		position: relative;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		padding: 15px 0;
+	}
+}

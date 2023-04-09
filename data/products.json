@@ -1,0 +1,1192 @@
+[
+	{
+		"_id": {
+			"$oid": "642414bddc7fc16277f61b82"
+		},
+		"name": "Fire HD 10 Kids Pro tablet",
+		"description": "introducing Fire HD 10 Kids Pro tablet, 10.1, 1080p Full HD, 32 GB, Doodle Kid-Friendly Case, for school-age children",
+		"brand": "Amazon",
+		"slug": "fire-hd-10-kids-pro-tablet",
+		"category": {
+			"$oid": "642414bddc7fc16277f61b83"
+		},
+		"subCategories": [
+			{
+				"$oid": "642414bddc7fc16277f61b84"
+			}
+		],
+		"details": [
+			{
+				"name": "style",
+				"value": "Fire HD kids pro",
+				"_id": {
+					"$oid": "642414bddc7fc16277f61b85"
+				}
+			},
+			{
+				"name": "color",
+				"value": "Graffiti",
+				"_id": {
+					"$oid": "642414bddc7fc16277f61b86"
+				}
+			}
+		],
+		"questions": [],
+		"subProducts": [
+			{
+				"sku": "sw2206138988536738",
+				"discount": 30,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/2_rch0kv.jpg",
+						"public_url": "products/j1h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/3_xr6ehp.jpg",
+						"public_url": "products/j2h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846429/products/electronics/tablet/blue/4_diviax.jpg",
+						"public_url": "products/j3h8giisorvqwnxgy61x"
+					}
+				],
+				"color": {
+					"color": "Himmelblau",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg"
+				},
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				]
+			},
+			{
+				"sku": "sw2206138988537738",
+				"discount": 24,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846505/products/electronics/tablet/purple/22_h73evn.jpg",
+						"public_url": "products/j1h8giisorvqwnxgy61x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				],
+				"color": {
+					"color": "purple",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg"
+				}
+			},
+			{
+				"sku": "sw2206138988536838",
+				"discount": 50,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				],
+				"color": {
+					"color": "pink",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg"
+				}
+			},
+			{
+				"sku": "sw2206138888536838",
+				"discount": 20,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				],
+				"color": {
+					"color": "Graffiti",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg"
+				}
+			}
+		],
+		"createdAt": {
+			"$date": "2023-04-04 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2023-04-07 04:46:04"
+		},
+		"__v": 15,
+		"numReviews": "5",
+		"rating": "3.5",
+		"reviews": []
+	},
+	{
+		"_id": {
+			"$oid": "678414bddc8fc16277f61b82"
+		},
+		"name": "Fire HD 10 Kids Pro tablet",
+		"description": "introducing Fire HD 10 Kids Pro tablet, 10.1, 1080p Full HD, 32 GB, Doodle Kid-Friendly Case, for school-age children",
+		"brand": "Amazon",
+		"slug": "fire-hd-10-kids-pro-tablet",
+		"category": {
+			"$oid": "642414bddc7fc16277f61b83"
+		},
+		"subCategories": [
+			{
+				"$oid": "642414bddc7fc16277f61b84"
+			}
+		],
+		"details": [
+			{
+				"name": "style",
+				"value": "Fire HD kids pro",
+				"_id": {
+					"$oid": "642414bddc7fc16277f61b85"
+				}
+			},
+			{
+				"name": "color",
+				"value": "Graffiti",
+				"_id": {
+					"$oid": "642414bddc7fc16277f61b86"
+				}
+			}
+		],
+		"questions": [],
+		"subProducts": [
+			{
+				"sku": "sw2206138988536738",
+				"discount": 30,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/2_rch0kv.jpg",
+						"public_url": "products/j1h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/3_xr6ehp.jpg",
+						"public_url": "products/j2h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846429/products/electronics/tablet/blue/4_diviax.jpg",
+						"public_url": "products/j3h8giisorvqwnxgy61x"
+					}
+				],
+				"color": {
+					"color": "Himmelblau",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg"
+				},
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				]
+			},
+			{
+				"sku": "sw2206138988537738",
+				"discount": 24,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846505/products/electronics/tablet/purple/22_h73evn.jpg",
+						"public_url": "products/j1h8giisorvqwnxgy61x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				],
+				"color": {
+					"color": "purple",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg"
+				}
+			},
+			{
+				"sku": "sw2206138988536838",
+				"discount": 50,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				],
+				"color": {
+					"color": "pink",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg"
+				}
+			},
+			{
+				"sku": "sw2206138888536838",
+				"discount": 20,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				],
+				"color": {
+					"color": "Graffiti",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg"
+				}
+			}
+		],
+		"createdAt": {
+			"$date": "2023-04-04 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2023-04-07 04:46:04"
+		},
+		"__v": 15,
+		"numReviews": "5",
+		"rating": "3.5",
+		"reviews": []
+	},
+	{
+		"_id": {
+			"$oid": "642994bddc7fc16277f61b82"
+		},
+		"name": "Fire HD 10 Kids Pro tablet",
+		"description": "introducing Fire HD 10 Kids Pro tablet, 10.1, 1080p Full HD, 32 GB, Doodle Kid-Friendly Case, for school-age children",
+		"brand": "Amazon",
+		"slug": "fire-hd-10-kids-pro-tablet",
+		"category": {
+			"$oid": "642415bddc7fc16277f61b83"
+		},
+		"subCategories": [
+			{
+				"$oid": "643414bddc7fc16277f61b84"
+			}
+		],
+		"details": [
+			{
+				"name": "style",
+				"value": "Fire HD kids pro",
+				"_id": {
+					"$oid": "642414bddc7fc16277f61b85"
+				}
+			},
+			{
+				"name": "color",
+				"value": "Graffiti",
+				"_id": {
+					"$oid": "842414bddc7fc16277f61b86"
+				}
+			}
+		],
+		"questions": [],
+		"subProducts": [
+			{
+				"sku": "sw2206138988536738",
+				"discount": 30,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/2_rch0kv.jpg",
+						"public_url": "products/j1h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/3_xr6ehp.jpg",
+						"public_url": "products/j2h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846429/products/electronics/tablet/blue/4_diviax.jpg",
+						"public_url": "products/j3h8giisorvqwnxgy61x"
+					}
+				],
+				"color": {
+					"color": "Himmelblau",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg"
+				},
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				]
+			},
+			{
+				"sku": "sw2206138988537738",
+				"discount": 24,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846505/products/electronics/tablet/purple/22_h73evn.jpg",
+						"public_url": "products/j1h8giisorvqwnxgy61x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				],
+				"color": {
+					"color": "purple",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg"
+				}
+			},
+			{
+				"sku": "sw2206138988536838",
+				"discount": 50,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				],
+				"color": {
+					"color": "pink",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg"
+				}
+			},
+			{
+				"sku": "sw2206138888536838",
+				"discount": 20,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				],
+				"color": {
+					"color": "Graffiti",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg"
+				}
+			}
+		],
+		"createdAt": {
+			"$date": "2023-04-04 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2023-04-07 04:46:04"
+		},
+		"__v": 15,
+		"numReviews": "5",
+		"rating": "3.5",
+		"reviews": []
+	},
+	{
+		"_id": {
+			"$oid": "624784bddc7fc16277f61b82"
+		},
+		"name": "Fire HD 10 Kids Pro tablet",
+		"description": "introducing Fire HD 10 Kids Pro tablet, 10.1, 1080p Full HD, 32 GB, Doodle Kid-Friendly Case, for school-age children",
+		"brand": "Amazon",
+		"slug": "fire-hd-10-kids-pro-tablet",
+		"category": {
+			"$oid": "642884bddc7fc16277f61b83"
+		},
+		"subCategories": [
+			{
+				"$oid": "687414bddc7fc16277f61b84"
+			}
+		],
+		"details": [
+			{
+				"name": "style",
+				"value": "Fire HD kids pro",
+				"_id": {
+					"$oid": "642414bddc7fc16277f61b85"
+				}
+			},
+			{
+				"name": "color",
+				"value": "Graffiti",
+				"_id": {
+					"$oid": "699414bddc7fc16277f61b86"
+				}
+			}
+		],
+		"questions": [],
+		"subProducts": [
+			{
+				"sku": "sw2206138988536738",
+				"discount": 30,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/2_rch0kv.jpg",
+						"public_url": "products/j1h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/3_xr6ehp.jpg",
+						"public_url": "products/j2h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846429/products/electronics/tablet/blue/4_diviax.jpg",
+						"public_url": "products/j3h8giisorvqwnxgy61x"
+					}
+				],
+				"color": {
+					"color": "Himmelblau",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg"
+				},
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				]
+			},
+			{
+				"sku": "sw2206138988537738",
+				"discount": 24,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846505/products/electronics/tablet/purple/22_h73evn.jpg",
+						"public_url": "products/j1h8giisorvqwnxgy61x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				],
+				"color": {
+					"color": "purple",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg"
+				}
+			},
+			{
+				"sku": "sw2206138988536838",
+				"discount": 50,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				],
+				"color": {
+					"color": "pink",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg"
+				}
+			},
+			{
+				"sku": "sw2206138888536838",
+				"discount": 20,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				],
+				"color": {
+					"color": "Graffiti",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg"
+				}
+			}
+		],
+		"createdAt": {
+			"$date": "2023-04-04 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2023-04-07 04:46:04"
+		},
+		"__v": 15,
+		"numReviews": "5",
+		"rating": "3.5",
+		"reviews": []
+	},
+	{
+		"_id": {
+			"$oid": "642414addc7fc16277f61r82"
+		},
+		"name": "Fire HD 10 Kids Pro tablet",
+		"description": "introducing Fire HD 10 Kids Pro tablet, 10.1, 1080p Full HD, 32 GB, Doodle Kid-Friendly Case, for school-age children",
+		"brand": "Amazon",
+		"slug": "fire-hd-10-kids-pro-tablet",
+		"category": {
+			"$oid": "642414cddc7fc16277f61b83"
+		},
+		"subCategories": [
+			{
+				"$oid": "642414dddc7fc16277f61b84"
+			}
+		],
+		"details": [
+			{
+				"name": "style",
+				"value": "Fire HD kids pro",
+				"_id": {
+					"$oid": "642414eddc7fc16277f61b85"
+				}
+			},
+			{
+				"name": "color",
+				"value": "Graffiti",
+				"_id": {
+					"$oid": "642414fddc7fc16277f61b86"
+				}
+			}
+		],
+		"questions": [],
+		"subProducts": [
+			{
+				"sku": "sw2206138988536738",
+				"discount": 30,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/2_rch0kv.jpg",
+						"public_url": "products/j1h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/3_xr6ehp.jpg",
+						"public_url": "products/j2h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846429/products/electronics/tablet/blue/4_diviax.jpg",
+						"public_url": "products/j3h8giisorvqwnxgy61x"
+					}
+				],
+				"color": {
+					"color": "Himmelblau",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg"
+				},
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				]
+			},
+			{
+				"sku": "sw2206138988537738",
+				"discount": 24,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846505/products/electronics/tablet/purple/22_h73evn.jpg",
+						"public_url": "products/j1h8giisorvqwnxgy61x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				],
+				"color": {
+					"color": "purple",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg"
+				}
+			},
+			{
+				"sku": "sw2206138988536838",
+				"discount": 50,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				],
+				"color": {
+					"color": "pink",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg"
+				}
+			},
+			{
+				"sku": "sw2206138888536838",
+				"discount": 20,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				],
+				"color": {
+					"color": "Graffiti",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg"
+				}
+			}
+		],
+		"createdAt": {
+			"$date": "2023-04-04 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2023-04-07 04:46:04"
+		},
+		"__v": 15,
+		"numReviews": "5",
+		"rating": "3.5",
+		"reviews": []
+	},
+	{
+		"_id": {
+			"$oid": "642414gddc7fc16277f61b82"
+		},
+		"name": "Fire HD 10 Kids Pro tablet",
+		"description": "introducing Fire HD 10 Kids Pro tablet, 10.1, 1080p Full HD, 32 GB, Doodle Kid-Friendly Case, for school-age children",
+		"brand": "Amazon",
+		"slug": "fire-hd-10-kids-pro-tablet",
+		"category": {
+			"$oid": "642414hddc7fc16277f61b83"
+		},
+		"subCategories": [
+			{
+				"$oid": "642414jddc7fc16277f61b84"
+			}
+		],
+		"details": [
+			{
+				"name": "style",
+				"value": "Fire HD kids pro",
+				"_id": {
+					"$oid": "642414kddc7fc16277f61b85"
+				}
+			},
+			{
+				"name": "color",
+				"value": "Graffiti",
+				"_id": {
+					"$oid": "642414lddc7fc16277f61b86"
+				}
+			}
+		],
+		"questions": [],
+		"subProducts": [
+			{
+				"sku": "sw2206138988536738",
+				"discount": 30,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/2_rch0kv.jpg",
+						"public_url": "products/j1h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/3_xr6ehp.jpg",
+						"public_url": "products/j2h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846429/products/electronics/tablet/blue/4_diviax.jpg",
+						"public_url": "products/j3h8giisorvqwnxgy61x"
+					}
+				],
+				"color": {
+					"color": "Himmelblau",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg"
+				},
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				]
+			},
+			{
+				"sku": "sw2206138988537738",
+				"discount": 24,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846505/products/electronics/tablet/purple/22_h73evn.jpg",
+						"public_url": "products/j1h8giisorvqwnxgy61x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				],
+				"color": {
+					"color": "purple",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg"
+				}
+			},
+			{
+				"sku": "sw2206138988536838",
+				"discount": 50,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				],
+				"color": {
+					"color": "pink",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg"
+				}
+			},
+			{
+				"sku": "sw2206138888536838",
+				"discount": 20,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				],
+				"color": {
+					"color": "Graffiti",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg"
+				}
+			}
+		],
+		"createdAt": {
+			"$date": "2023-04-04 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2023-04-07 04:46:04"
+		},
+		"__v": 15,
+		"numReviews": "5",
+		"rating": "3.5",
+		"reviews": []
+	},
+	{
+		"_id": {
+			"$oid": "642414mddc7fc16277f61b82"
+		},
+		"name": "Fire HD 10 Kids Pro tablet",
+		"description": "introducing Fire HD 10 Kids Pro tablet, 10.1, 1080p Full HD, 32 GB, Doodle Kid-Friendly Case, for school-age children",
+		"brand": "Amazon",
+		"slug": "fire-hd-10-kids-pro-tablet",
+		"category": {
+			"$oid": "642414nddc7fc16277f61b83"
+		},
+		"subCategories": [
+			{
+				"$oid": "642414oddc7fc16277f61b84"
+			}
+		],
+		"details": [
+			{
+				"name": "style",
+				"value": "Fire HD kids pro",
+				"_id": {
+					"$oid": "642414pddc7fc16277f61b85"
+				}
+			},
+			{
+				"name": "color",
+				"value": "Graffiti",
+				"_id": {
+					"$oid": "642414qddc7fc16277f61b86"
+				}
+			}
+		],
+		"questions": [],
+		"subProducts": [
+			{
+				"sku": "sw2206138988536738",
+				"discount": 30,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/2_rch0kv.jpg",
+						"public_url": "products/j1h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/3_xr6ehp.jpg",
+						"public_url": "products/j2h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846429/products/electronics/tablet/blue/4_diviax.jpg",
+						"public_url": "products/j3h8giisorvqwnxgy61x"
+					}
+				],
+				"color": {
+					"color": "Himmelblau",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg"
+				},
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				]
+			},
+			{
+				"sku": "sw2206138988537738",
+				"discount": 24,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846505/products/electronics/tablet/purple/22_h73evn.jpg",
+						"public_url": "products/j1h8giisorvqwnxgy61x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				],
+				"color": {
+					"color": "purple",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg"
+				}
+			},
+			{
+				"sku": "sw2206138988536838",
+				"discount": 50,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				],
+				"color": {
+					"color": "pink",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg"
+				}
+			},
+			{
+				"sku": "sw2206138888536838",
+				"discount": 20,
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy61x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "10 inch",
+						"qty": "20",
+						"price": "214.99"
+					},
+					{
+						"size": "15 inch",
+						"qty": "12",
+						"price": "314.99"
+					}
+				],
+				"color": {
+					"color": "Graffiti",
+					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg"
+				}
+			}
+		],
+		"createdAt": {
+			"$date": "2023-04-04 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2023-04-07 04:46:04"
+		},
+		"__v": 15,
+		"numReviews": "5",
+		"rating": "3.5",
+		"reviews": []
+	}
+]

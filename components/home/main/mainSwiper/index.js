@@ -14,6 +14,7 @@ export default function MainSwiper() {
 				autoplay={{
 					delay: 3000,
 					disableOnInteraction: false,
+					stopOnLastSlide: false,
 				}}
 				pagination={{
 					clickable: true,

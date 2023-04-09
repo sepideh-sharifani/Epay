@@ -1,0 +1,122 @@
+import mongoose from 'mongoose';
+
+const { ObjectId } = mongoose.Schema;
+const reviewSchema = new mongoose.Schema({
+	reviewBy: {
+		type: ObjectId,
+		ref: 'User',
+		required: true,
+	},
+	rating: {
+		type: Number,
+		required: true,
+	},
+	review: {
+		type: String,
+		required: true,
+	},
+	size: {
+		type: String,
+	},
+	style: {
+		color: String,
+		image: String,
+	},
+	fit: {
+		type: String,
+	},
+	images: [],
+	likes: [],
+});
+
+const productSchema = new mongoose.Schema(
+	{
+		name: {
+			type: String,
+			required: true,
+		},
+		description: {
+			type: String,
+			required: true,
+		},
+		brand: {
+			type: String,
+		},
+		//making the spaces between words to dash
+		slug: {
+			type: String,
+			required: true,
+		},
+		category: {
+			type: ObjectId,
+			required: true,
+			ref: 'Category',
+		},
+		subCategories: [
+			{
+				type: ObjectId,
+				ref: 'subCategory',
+			},
+		],
+		details: [
+			{
+				name: String,
+				value: String,
+			},
+		],
+		questions: [
+			{
+				question: String,
+				answer: String,
+			},
+		],
+		reviews: [reviewSchema],
+		rating: {
+			type: Number,
+			required: true,
+			default: 0,
+		},
+		numReview: {
+			type: Number,
+			required: true,
+			default: 0,
+		},
+		//if one product has different features e.g one color has discount but the other doesn't
+		subProducts: [
+			{
+				images: [],
+				descriptionImages: [],
+				color: {
+					color: {
+						type: String,
+					},
+					image: {
+						type: String,
+					},
+				},
+				sizes: [
+					{
+						size: String,
+						qty: Number,
+						price: Number,
+					},
+				],
+				discount: {
+					type: Number,
+					default: 0,
+				},
+				sold: {
+					type: Number,
+					default: 0,
+				},
+			},
+		],
+	},
+	{
+		timeStamps: true,
+	},
+);
+
+const Product =
+	mongoose.models.Product || mongoose.model('Product', productSchema);
+export default Product;

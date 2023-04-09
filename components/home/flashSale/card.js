@@ -3,7 +3,7 @@ import styles from './styles.module.scss';
 import { MdFlashOn } from 'react-icons/md';
 
 function Card({ data }) {
-	const newPrice = Math.floor(data.price - data.price / data.discount);
+	const newPrice = Math.round(data.price - data.price / data.discount, 2);
 	return (
 		<div className={styles.card}>
 			<div className={styles.card__img}>

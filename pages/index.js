@@ -7,10 +7,14 @@ import Main from '../components/home/main';
 import FlashSale from '../components/home/flashSale';
 import ProductCategory from '../components/home/category';
 import Banner from '../components/home/banner';
+import Product from '../models/Product';
+import ProductsCard from '../components/products';
+import db from '../utils/db';
+import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export default function Home() {
+export default function Home({ products }) {
 	const { data: session } = useSession();
 	return (
 		<>
@@ -21,6 +25,26 @@ export default function Home() {
 					<FlashSale />
 					<ProductCategory />
 					<Banner />
+					<div className={styles.product}>
+						<div className={styles.top}>
+							<div className={styles.top__header}>
+								<h2>Top deals</h2>
+								<h6>
+									View More
+									<MdOutlineKeyboardArrowRight />
+								</h6>
+							</div>
+							<div className={styles.divider} />
+						</div>
+						<div className={styles.productContainer}>
+							{products.slice(0, 6).map((product) => (
+								<ProductsCard
+									product={product}
+									key={product._id}
+								/>
+							))}
+						</div>
+					</div>
 				</div>
 			</div>
 			<Footer />
@@ -46,3 +70,14 @@ export default function Home() {
 // 		},
 // 	};
 // }
+
+export async function getServerSideProps() {
+	db.connectDb();
+	//first find the product and then sort them based on the date(newest first)
+	let products = await Product.find().sort({ createdAt: -1 }).lean();
+	return {
+		props: {
+			products: JSON.parse(JSON.stringify(products)),
+		},
+	};
+}

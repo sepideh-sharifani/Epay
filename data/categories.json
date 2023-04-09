@@ -1,0 +1,72 @@
+[
+	{
+		"_id": {
+			"$oid": "647414bddc7fc16277f61b84"
+		},
+		"name": "Electronics",
+		"slug": "electronics",
+		"createdAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "642415bddc7fc16277f61b84"
+		},
+		"name": "Women's Clothing",
+		"slug": "women's-clothing",
+		"createdAt": {
+			"$date": "2022-05-07 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2022-05-07 04:46:04"
+		},
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "643414bddc7fc16277f61b84"
+		},
+		"name": "Men's Clothing",
+		"slug": "men's-clothing",
+		"createdAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "648714bddc7fc16277f61b84"
+		},
+		"name": "Home Appliances",
+		"slug": "home-appliances",
+		"createdAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "649714bddc7fc16277f61b84"
+		},
+		"name": "Watch",
+		"slug": "watch",
+		"createdAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"__v": 0
+	}
+]
