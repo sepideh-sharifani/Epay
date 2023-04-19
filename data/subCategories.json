@@ -1,0 +1,156 @@
+[
+	{
+		"_id": {
+			"$oid": "U1aPworNh3OW"
+		},
+		"name": "Tablets",
+		"slug": "tablet",
+		"createdAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "MHhh4ARUznWY"
+		},
+		"name": "LapTop",
+		"slug": "laptop",
+		"createdAt": {
+			"$date": "2022-05-07 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2022-05-07 04:46:04"
+		},
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "TRn1ATRA8goo"
+		},
+		"name": "Digital Clock",
+		"slug": "digital-clock",
+		"createdAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "648714bddc7fc16277f61b84"
+		},
+		"name": "Home Appliances",
+		"slug": "home-appliances",
+		"createdAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "MWJf6f7vnSSx"
+		},
+		"name": "Watch",
+		"slug": "watch",
+		"createdAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "vr3SBsh6T8IM"
+		},
+		"name": "Trousers",
+		"slug": "trousers",
+		"createdAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "jNKivs1kh56M"
+		},
+		"name": "Medicine",
+		"slug": "medicine",
+		"createdAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "iEocvvZ1xvWn"
+		},
+		"name": "Health equipments",
+		"slug": "health-equipments",
+		"createdAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "9uKDGtayfdlN"
+		},
+		"name": "House equipments",
+		"slug": "house-equipments",
+		"createdAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "uA8D8ZW1rA3w"
+		},
+		"name": "Dress",
+		"slug": "dress",
+		"createdAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "1VZjdmqsHGcC"
+		},
+		"name": "Furniture",
+		"slug": "furniture",
+		"createdAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"__v": 0
+	}
+]

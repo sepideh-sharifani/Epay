@@ -9,7 +9,10 @@ import { Navigation, Pagination } from 'swiper';
 import { flashSaleItems } from '../../../data/data.js';
 import Card from './Card';
 
-function FlashSale() {
+function FlashSale({ products }) {
+	const discountedProducts = products.filter((product) =>
+		product.subProducts.some((subProduct) => subProduct.discount > 0),
+	);
 	return (
 		<div className={styles.flashSale}>
 			<div className={styles.flashSale__header}>
@@ -43,7 +46,7 @@ function FlashSale() {
 					}}
 					modules={[Navigation]}
 					className='flashSaleSwiper'>
-					{flashSaleItems.map((item, i) => (
+					{discountedProducts.map((item, i) => (
 						<SwiperSlide>
 							<Card
 								data={item}

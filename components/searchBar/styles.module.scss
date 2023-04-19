@@ -1,0 +1,109 @@
+.main {
+	position: relative;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	box-shadow: 1px 4px 19px -2px rgba(165, 162, 162, 0.79);
+	-webkit-box-shadow: 1px 4px 19px -2px rgba(165, 162, 162, 0.79);
+	-moz-box-shadow: 1px 4px 19px -2px rgba(165, 162, 162, 0.79);
+	&__container {
+		max-width: 1300px;
+		margin: 0 auto;
+		padding: 0 18px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 30px;
+		width: 100%;
+		@media (max-width: 430px) {
+			gap: 10px;
+		}
+	}
+	.search {
+		display: flex;
+		align-items: center;
+		background-color: $light-gray;
+		height: 35px;
+		width: 50%;
+		border-radius: 5px;
+		color: $white;
+		input {
+			border: none;
+			outline: none;
+			width: 100%;
+			height: 100%;
+			background: transparent;
+			padding: 6px;
+		}
+		&__icon {
+			width: 50px;
+			height: 100%;
+			background-color: $dark-blue;
+			border-top-right-radius: 5px;
+			border-bottom-right-radius: 5px;
+			cursor: pointer;
+			display: grid;
+			place-items: center;
+			color: $white;
+			svg {
+				width: 20px;
+				height: 20px;
+			}
+		}
+	}
+	.icons {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 10px;
+		margin: 5px;
+		svg {
+			width: 20px;
+			height: 20px;
+			display: grid;
+			place-items: center;
+			&:hover {
+				fill: $yellow;
+			}
+		}
+		&__cart {
+			position: absolute;
+			top: -5px;
+			right: 25px;
+			background: $dark-blue;
+			width: 15px;
+			height: 15px;
+			font-size: 12px;
+			border-radius: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: $white;
+		}
+		&__wishlist {
+			position: absolute;
+			top: -5px;
+			right: -10px;
+			background: $dark-blue;
+			width: 15px;
+			height: 15px;
+			font-size: 12px;
+			border-radius: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: $white;
+		}
+	}
+	@media (max-width: 870px) {
+		.category {
+			display: none;
+		}
+	}
+	@media (max-width: 430px) {
+		.search {
+			width: 90%;
+		}
+	}
+}

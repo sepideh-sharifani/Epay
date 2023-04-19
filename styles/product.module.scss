@@ -1,0 +1,29 @@
+.product {
+	background-color: $light-gray;
+	min-height: 100vh;
+	&__container {
+		position: relative;
+		max-width: 1000px;
+		margin: 0 auto;
+		margin-top: 10px;
+		background-color: $light-gray;
+		min-width: 0;
+	}
+	.path {
+		font-size: 15px;
+	}
+	&__main {
+		position: relative;
+		display: grid;
+		margin-top: 1rem;
+		gap: 1rem;
+		@media (min-width: 800px) {
+			grid-template-columns: 1fr 350px;
+			gap: 20px;
+		}
+		@media (min-width: 800px) {
+			grid-template-columns: 1fr 1fr;
+			gap: 20px;
+		}
+	}
+}

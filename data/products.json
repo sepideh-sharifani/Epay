@@ -1,18 +1,18 @@
 [
 	{
 		"_id": {
-			"$oid": "642414bddc7fc16277f61b82"
+			"$oid": "hpoUxzFzEq7R"
 		},
 		"name": "Fire HD 10 Kids Pro tablet",
 		"description": "introducing Fire HD 10 Kids Pro tablet, 10.1, 1080p Full HD, 32 GB, Doodle Kid-Friendly Case, for school-age children",
 		"brand": "Amazon",
 		"slug": "fire-hd-10-kids-pro-tablet",
 		"category": {
-			"$oid": "642414bddc7fc16277f61b83"
+			"$oid": "kU15ybuLmjcq"
 		},
 		"subCategories": [
 			{
-				"$oid": "642414bddc7fc16277f61b84"
+				"$oid": "U1aPworNh3OW"
 			}
 		],
 		"details": [
@@ -38,36 +38,35 @@
 				"discount": 30,
 				"images": [
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg",
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681113078/products/electronics/tablet/blue/1_kpjqlw.jpg",
 						"public_url": "products/j9h8giisorvqwnxgy61x"
 					},
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/2_rch0kv.jpg",
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681113124/products/electronics/tablet/blue/3_xr6ehp.jpg",
 						"public_url": "products/j1h8giisorvqwnxgy61x"
 					},
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/3_xr6ehp.jpg",
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681113053/products/electronics/tablet/blue/2_rch0kv.jpg",
 						"public_url": "products/j2h8giisorvqwnxgy61x"
 					},
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846429/products/electronics/tablet/blue/4_diviax.jpg",
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681113161/products/electronics/tablet/blue/4_diviax.jpg",
 						"public_url": "products/j3h8giisorvqwnxgy61x"
 					}
 				],
 				"color": {
-					"color": "Himmelblau",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg"
+					"color": "#0088ff"
 				},
 				"descriptionImages": [],
 				"sizes": [
 					{
 						"size": "10 inch",
-						"qty": "20",
+						"qty": 20,
 						"price": "214.99"
 					},
 					{
 						"size": "15 inch",
-						"qty": "12",
+						"qty": 12,
 						"price": "314.99"
 					}
 				]
@@ -77,11 +76,11 @@
 				"discount": 24,
 				"images": [
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg",
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681113912/products/electronics/tablet/purple/2_ygs8ni.jpg",
 						"public_url": "products/j9h8giisorvqwnxgy61x"
 					},
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846505/products/electronics/tablet/purple/22_h73evn.jpg",
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681113933/products/electronics/tablet/purple/22_h73evn.jpg",
 						"public_url": "products/j1h8giisorvqwnxgy61x"
 					}
 				],
@@ -89,18 +88,17 @@
 				"sizes": [
 					{
 						"size": "10 inch",
-						"qty": "20",
+						"qty": 20,
 						"price": "214.99"
 					},
 					{
 						"size": "15 inch",
-						"qty": "12",
+						"qty": 12,
 						"price": "314.99"
 					}
 				],
 				"color": {
-					"color": "purple",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg"
+					"color": "#7F6ABB"
 				}
 			},
 			{
@@ -108,7 +106,7 @@
 				"discount": 50,
 				"images": [
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg",
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681114116/products/electronics/tablet/4_u21kr3.jpg",
 						"public_url": "products/j9h8giisorvqwnxgy61x"
 					}
 				],
@@ -116,18 +114,17 @@
 				"sizes": [
 					{
 						"size": "10 inch",
-						"qty": "20",
+						"qty": 20,
 						"price": "214.99"
 					},
 					{
 						"size": "15 inch",
-						"qty": "12",
+						"qty": 12,
 						"price": "314.99"
 					}
 				],
 				"color": {
-					"color": "pink",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg"
+					"color": "#D4B4CA"
 				}
 			},
 			{
@@ -143,18 +140,17 @@
 				"sizes": [
 					{
 						"size": "10 inch",
-						"qty": "20",
+						"qty": 20,
 						"price": "214.99"
 					},
 					{
 						"size": "15 inch",
-						"qty": "12",
+						"qty": 12,
 						"price": "314.99"
 					}
 				],
 				"color": {
-					"color": "Graffiti",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg"
+					"color": "#BF3874"
 				}
 			}
 		],
@@ -171,161 +167,145 @@
 	},
 	{
 		"_id": {
-			"$oid": "678414bddc8fc16277f61b82"
+			"$oid": "3l9UPZQltRrr"
 		},
-		"name": "Fire HD 10 Kids Pro tablet",
-		"description": "introducing Fire HD 10 Kids Pro tablet, 10.1, 1080p Full HD, 32 GB, Doodle Kid-Friendly Case, for school-age children",
-		"brand": "Amazon",
-		"slug": "fire-hd-10-kids-pro-tablet",
+		"name": "HP Stream Laptop 11.6 Inch HD Display",
+		"description": "HP Stream Laptop 11.6 Inch HD Display - Intel Celeron N4120 - 4GB DDR4 RAM - 64GB eMMC - Intel Graphics - Windows 11 S-Mode - QWERTZ Keyboard - Blue - Includes Microsoft Office 365 Single",
+		"brand": "HP",
+		"slug": "hp-stream-laptop-11.6-inch-hd-display",
 		"category": {
-			"$oid": "642414bddc7fc16277f61b83"
+			"$oid": "kU15ybuLmjcq"
 		},
 		"subCategories": [
 			{
-				"$oid": "642414bddc7fc16277f61b84"
+				"$oid": "MHhh4ARUznWY"
 			}
 		],
 		"details": [
 			{
-				"name": "style",
-				"value": "Fire HD kids pro",
+				"name": "Series",
+				"value": "62S98EA",
 				"_id": {
-					"$oid": "642414bddc7fc16277f61b85"
+					"$oid": "yr3C1nvOTBaF"
 				}
 			},
 			{
-				"name": "color",
-				"value": "Graffiti",
+				"name": "Hard disk size",
+				"value": "64 GB",
 				"_id": {
-					"$oid": "642414bddc7fc16277f61b86"
+					"$oid": "N5ydZ0qP3ih3"
+				}
+			},
+			{
+				"name": "CPU model",
+				"value": "Celeron N",
+				"_id": {
+					"$oid": "Aqkmqi4qbbSz"
+				}
+			},
+			{
+				"name": "RAM",
+				"value": "4 GB",
+				"_id": {
+					"$oid": "t0W0yDkjCBiO"
+				}
+			},
+			{
+				"name": "Operating System",
+				"value": "Windows 11 S",
+				"_id": {
+					"$oid": "oPwy1ZYrKM7M"
 				}
 			}
 		],
 		"questions": [],
 		"subProducts": [
 			{
-				"sku": "sw2206138988536738",
-				"discount": 30,
+				"sku": "sw1106138988536738",
+				"discount": 20,
 				"images": [
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg",
-						"public_url": "products/j9h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681116211/products/electronics/hp/blue/1_s4sczx.jpg",
+						"public_url": "products/j9h1giisorvqwnxgy61x"
 					},
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/2_rch0kv.jpg",
-						"public_url": "products/j1h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681116345/products/electronics/hp/blue/2_bzgod9.jpg",
+						"public_url": "products/j1h2giisorvqwnxgy61x"
 					},
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/3_xr6ehp.jpg",
-						"public_url": "products/j2h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681116386/products/electronics/hp/blue/4_o5fhxp.jpg",
+						"public_url": "products/j2h3giisorvqwnxgy61x"
 					},
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846429/products/electronics/tablet/blue/4_diviax.jpg",
-						"public_url": "products/j3h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681116411/products/electronics/hp/blue/3_feslo1.jpg",
+						"public_url": "products/j3h4giisorvqwnxgy61x"
 					}
 				],
 				"color": {
-					"color": "Himmelblau",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg"
+					"color": "#6A7393"
 				},
 				"descriptionImages": [],
 				"sizes": [
 					{
-						"size": "10 inch",
-						"qty": "20",
-						"price": "214.99"
-					},
-					{
-						"size": "15 inch",
-						"qty": "12",
-						"price": "314.99"
+						"size": "11.6 inch",
+						"qty": 20,
+						"price": "890.21"
 					}
 				]
 			},
 			{
-				"sku": "sw2206138988537738",
+				"sku": "sw1206138988537738",
 				"discount": 24,
 				"images": [
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg",
-						"public_url": "products/j9h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681116666/products/electronics/hp/pink/7_heakxt.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy11x"
 					},
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846505/products/electronics/tablet/purple/22_h73evn.jpg",
-						"public_url": "products/j1h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681116635/products/electronics/hp/pink/5_uexzzd.jpg",
+						"public_url": "products/j1h8giisorvqwnxgy12x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681116692/products/electronics/hp/pink/6_byn8wz.jpg",
+						"public_url": "products/j1h8giisorvqwnxgy13x"
 					}
 				],
 				"descriptionImages": [],
 				"sizes": [
 					{
-						"size": "10 inch",
-						"qty": "20",
-						"price": "214.99"
-					},
-					{
-						"size": "15 inch",
-						"qty": "12",
-						"price": "314.99"
+						"size": "11.6 inch",
+						"qty": 20,
+						"price": "890.21"
 					}
 				],
 				"color": {
-					"color": "purple",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg"
+					"color": "#DFC6CA"
 				}
 			},
 			{
-				"sku": "sw2206138988536838",
+				"sku": "sw1306138988536838",
 				"discount": 50,
 				"images": [
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg",
-						"public_url": "products/j9h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681116252/products/electronics/hp/black/20_n8qlm9.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy15x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681116846/products/electronics/hp/black/18_ynzdhk.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy14x"
 					}
 				],
 				"descriptionImages": [],
+				"color": {
+					"color": "#000"
+				},
 				"sizes": [
 					{
-						"size": "10 inch",
-						"qty": "20",
-						"price": "214.99"
-					},
-					{
-						"size": "15 inch",
-						"qty": "12",
-						"price": "314.99"
+						"size": "11.6 inch",
+						"qty": 20,
+						"price": "890.21"
 					}
-				],
-				"color": {
-					"color": "pink",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg"
-				}
-			},
-			{
-				"sku": "sw2206138888536838",
-				"discount": 20,
-				"images": [
-					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg",
-						"public_url": "products/j9h8giisorvqwnxgy61x"
-					}
-				],
-				"descriptionImages": [],
-				"sizes": [
-					{
-						"size": "10 inch",
-						"qty": "20",
-						"price": "214.99"
-					},
-					{
-						"size": "15 inch",
-						"qty": "12",
-						"price": "314.99"
-					}
-				],
-				"color": {
-					"color": "Graffiti",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg"
-				}
+				]
 			}
 		],
 		"createdAt": {
@@ -341,160 +321,99 @@
 	},
 	{
 		"_id": {
-			"$oid": "642994bddc7fc16277f61b82"
+			"$oid": "fy7cvkiMRbfs"
 		},
-		"name": "Fire HD 10 Kids Pro tablet",
-		"description": "introducing Fire HD 10 Kids Pro tablet, 10.1, 1080p Full HD, 32 GB, Doodle Kid-Friendly Case, for school-age children",
+		"name": "All-new Echo Dot",
+		"description": "Our best-sounding Echo Dot yet: enjoy an improved audio experience compared to any previous Echo Dot with Alexa for clearer vocals, deeper bass and vibrant sound in any room.",
 		"brand": "Amazon",
-		"slug": "fire-hd-10-kids-pro-tablet",
+		"slug": "all-new-echo-dot",
 		"category": {
-			"$oid": "642415bddc7fc16277f61b83"
+			"$oid": "kU15ybuLmjcq"
 		},
 		"subCategories": [
 			{
-				"$oid": "643414bddc7fc16277f61b84"
-			}
-		],
-		"details": [
-			{
-				"name": "style",
-				"value": "Fire HD kids pro",
-				"_id": {
-					"$oid": "642414bddc7fc16277f61b85"
-				}
-			},
-			{
-				"name": "color",
-				"value": "Graffiti",
-				"_id": {
-					"$oid": "842414bddc7fc16277f61b86"
-				}
+				"$oid": "TRn1ATRA8goo"
 			}
 		],
 		"questions": [],
 		"subProducts": [
 			{
-				"sku": "sw2206138988536738",
+				"sku": "sw2201138988536738",
 				"discount": 30,
 				"images": [
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg",
-						"public_url": "products/j9h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681151869/products/electronics/clock/blue/4_sdmbif_nia9vb.jpg",
+						"public_url": "products/j9h8giasorvqwnxgy61x"
 					},
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/2_rch0kv.jpg",
-						"public_url": "products/j1h8giisorvqwnxgy61x"
-					},
-					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/3_xr6ehp.jpg",
-						"public_url": "products/j2h8giisorvqwnxgy61x"
-					},
-					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846429/products/electronics/tablet/blue/4_diviax.jpg",
-						"public_url": "products/j3h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681151838/products/electronics/clock/blue/51L9i9Hi64L._AC_SX679__uvf5zl.jpg",
+						"public_url": "products/j1h8gibsorvqwnxgy61x"
 					}
 				],
 				"color": {
-					"color": "Himmelblau",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg"
+					"color": "#4C506A"
 				},
 				"descriptionImages": [],
 				"sizes": [
 					{
-						"size": "10 inch",
-						"qty": "20",
-						"price": "214.99"
-					},
-					{
-						"size": "15 inch",
-						"qty": "12",
-						"price": "314.99"
+						"size": "5th Gen",
+						"qty": 20,
+						"price": "39.99"
 					}
 				]
 			},
 			{
-				"sku": "sw2206138988537738",
+				"sku": "sw2202138988537738",
 				"discount": 24,
 				"images": [
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg",
-						"public_url": "products/j9h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681151905/products/electronics/clock/white/3_zpqpwg_eqviar.jpg",
+						"public_url": "products/j9h8gicsorvqwnxgy61x"
 					},
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846505/products/electronics/tablet/purple/22_h73evn.jpg",
-						"public_url": "products/j1h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681151947/products/electronics/clock/white/61hpaNSQd4L._AC_SX679__rjjomu.jpg",
+						"public_url": "products/j1h8gidsorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681151998/products/electronics/clock/white/61fm38NibeL._AC_SX679__av9s1n.jpg",
+						"public_url": "products/j1h8giesorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681151973/products/electronics/clock/white/51L9i9Hi64L._AC_SX679__lkpdsk.jpg",
+						"public_url": "products/j1h8gifsorvqwnxgy61x"
 					}
 				],
 				"descriptionImages": [],
 				"sizes": [
 					{
-						"size": "10 inch",
-						"qty": "20",
-						"price": "214.99"
-					},
-					{
-						"size": "15 inch",
-						"qty": "12",
-						"price": "314.99"
+						"size": "5th Gen",
+						"qty": 20,
+						"price": "39.99"
 					}
 				],
 				"color": {
-					"color": "purple",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg"
+					"color": "#E7E7E5"
 				}
 			},
 			{
-				"sku": "sw2206138988536838",
+				"sku": "sw2203138988536838",
 				"discount": 50,
 				"images": [
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg",
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780828/products/electronics/clock/1_ade6fu.jpg",
 						"public_url": "products/j9h8giisorvqwnxgy61x"
 					}
 				],
 				"descriptionImages": [],
 				"sizes": [
 					{
-						"size": "10 inch",
-						"qty": "20",
-						"price": "214.99"
-					},
-					{
-						"size": "15 inch",
-						"qty": "12",
-						"price": "314.99"
+						"size": "5th Gen",
+						"qty": 20,
+						"price": "39.99"
 					}
 				],
 				"color": {
-					"color": "pink",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg"
-				}
-			},
-			{
-				"sku": "sw2206138888536838",
-				"discount": 20,
-				"images": [
-					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg",
-						"public_url": "products/j9h8giisorvqwnxgy61x"
-					}
-				],
-				"descriptionImages": [],
-				"sizes": [
-					{
-						"size": "10 inch",
-						"qty": "20",
-						"price": "214.99"
-					},
-					{
-						"size": "15 inch",
-						"qty": "12",
-						"price": "314.99"
-					}
-				],
-				"color": {
-					"color": "Graffiti",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg"
+					"color": "#000"
 				}
 			}
 		],
@@ -505,166 +424,118 @@
 			"$date": "2023-04-07 04:46:04"
 		},
 		"__v": 15,
-		"numReviews": "5",
-		"rating": "3.5",
+		"numReviews": "10",
+		"rating": "4.5",
 		"reviews": []
 	},
 	{
 		"_id": {
-			"$oid": "624784bddc7fc16277f61b82"
+			"$oid": "Sw7OXYT7AaLt"
 		},
-		"name": "Fire HD 10 Kids Pro tablet",
-		"description": "introducing Fire HD 10 Kids Pro tablet, 10.1, 1080p Full HD, 32 GB, Doodle Kid-Friendly Case, for school-age children",
-		"brand": "Amazon",
-		"slug": "fire-hd-10-kids-pro-tablet",
+		"name": "Benyar Men’s Wrist Watch",
+		"description": "Benyar Men’s Wrist Watch with Leather Strap, Fashionable Sports Waterproof Analogue Quartz Chronograph Watches, Elegant Gift",
+		"brand": "Benyar",
+		"slug": "benyar-men-wrist-watch",
 		"category": {
-			"$oid": "642884bddc7fc16277f61b83"
+			"$oid": "QMXBbwleNBqy"
 		},
 		"subCategories": [
 			{
-				"$oid": "687414bddc7fc16277f61b84"
-			}
-		],
-		"details": [
-			{
-				"name": "style",
-				"value": "Fire HD kids pro",
-				"_id": {
-					"$oid": "642414bddc7fc16277f61b85"
-				}
-			},
-			{
-				"name": "color",
-				"value": "Graffiti",
-				"_id": {
-					"$oid": "699414bddc7fc16277f61b86"
-				}
+				"$oid": "MWJf6f7vnSSx"
 			}
 		],
 		"questions": [],
 		"subProducts": [
 			{
-				"sku": "sw2206138988536738",
-				"discount": 30,
+				"sku": "sw2204138988536738",
+				"discount": 12,
 				"images": [
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg",
-						"public_url": "products/j9h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681656684/products/watch/711s9aKynkL._AC_UX679__klrboo.jpg",
+						"public_url": "products/j9h8gidsorvqwnxgy61x"
 					},
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/2_rch0kv.jpg",
-						"public_url": "products/j1h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681656683/products/watch/71xqom1FZPL._AC_UX679__v3z9b3.jpg",
+						"public_url": "products/j1h8giesorvqwnxgy61x"
 					},
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/3_xr6ehp.jpg",
-						"public_url": "products/j2h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681656682/products/watch/71NGmCPovrL._AC_UX679__puanfq.jpg",
+						"public_url": "products/j1h8gifsorvqwnxgy61x"
 					},
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846429/products/electronics/tablet/blue/4_diviax.jpg",
-						"public_url": "products/j3h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681656682/products/watch/71Bc3lCJINL._AC_UX679__la8mst.jpg",
+						"public_url": "products/j1h8gigsorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681656681/products/watch/71r5fal33tL._AC_UX679__za8r0q.jpg",
+						"public_url": "products/j1h8gihsorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681656681/products/watch/71I4rvS4EZL._AC_UX679__d8alsi.jpg",
+						"public_url": "products/j1h8gijsorvqwnxgy61x"
 					}
 				],
-				"color": {
-					"color": "Himmelblau",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg"
-				},
 				"descriptionImages": [],
 				"sizes": [
 					{
-						"size": "10 inch",
-						"qty": "20",
-						"price": "214.99"
-					},
-					{
-						"size": "15 inch",
-						"qty": "12",
-						"price": "314.99"
+						"size": "男士标准款",
+						"qty": 20,
+						"price": "43.99"
 					}
-				]
-			},
+				],
+				"color": {
+					"color": "#000080"
+				}
+			}
+		],
+		"details": [
 			{
-				"sku": "sw2206138988537738",
-				"discount": 24,
-				"images": [
-					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg",
-						"public_url": "products/j9h8giisorvqwnxgy61x"
-					},
-					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846505/products/electronics/tablet/purple/22_h73evn.jpg",
-						"public_url": "products/j1h8giisorvqwnxgy61x"
-					}
-				],
-				"descriptionImages": [],
-				"sizes": [
-					{
-						"size": "10 inch",
-						"qty": "20",
-						"price": "214.99"
-					},
-					{
-						"size": "15 inch",
-						"qty": "12",
-						"price": "314.99"
-					}
-				],
-				"color": {
-					"color": "purple",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg"
+				"name": "Model number",
+				"value": "BY-5140",
+				"_id": {
+					"$oid": "UyxPhECdcrqH"
 				}
 			},
 			{
-				"sku": "sw2206138988536838",
-				"discount": 50,
-				"images": [
-					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg",
-						"public_url": "products/j9h8giisorvqwnxgy61x"
-					}
-				],
-				"descriptionImages": [],
-				"sizes": [
-					{
-						"size": "10 inch",
-						"qty": "20",
-						"price": "214.99"
-					},
-					{
-						"size": "15 inch",
-						"qty": "12",
-						"price": "314.99"
-					}
-				],
-				"color": {
-					"color": "pink",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg"
+				"name": "Part Number",
+				"value": "LWBS5140LEBLUJP",
+				"_id": {
+					"$oid": "pGeUhJJW2vja"
 				}
 			},
 			{
-				"sku": "sw2206138888536838",
-				"discount": 20,
-				"images": [
-					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg",
-						"public_url": "products/j9h8giisorvqwnxgy61x"
-					}
-				],
-				"descriptionImages": [],
-				"sizes": [
-					{
-						"size": "10 inch",
-						"qty": "20",
-						"price": "214.99"
-					},
-					{
-						"size": "15 inch",
-						"qty": "12",
-						"price": "314.99"
-					}
-				],
-				"color": {
-					"color": "Graffiti",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg"
+				"name": "Model Year",
+				"value": "2022",
+				"_id": {
+					"$oid": "B823SLTyUaK1"
+				}
+			},
+			{
+				"name": "Item Shape",
+				"value": "Rund",
+				"_id": {
+					"$oid": "1rNZv4bcf50r"
+				}
+			},
+			{
+				"name": "Display Type",
+				"value": "Analog",
+				"_id": {
+					"$oid": "YZLHP268FXji"
+				}
+			},
+			{
+				"name": "Band Colour",
+				"value": "Blau",
+				"_id": {
+					"$oid": "aDuJawGhVFW8"
+				}
+			},
+			{
+				"name": "Calendar",
+				"value": "Date",
+				"_id": {
+					"$oid": "JgzUKj8GcZGt"
 				}
 			}
 		],
@@ -675,166 +546,241 @@
 			"$date": "2023-04-07 04:46:04"
 		},
 		"__v": 15,
-		"numReviews": "5",
-		"rating": "3.5",
+		"numReviews": "10",
+		"rating": "4.5",
 		"reviews": []
 	},
 	{
 		"_id": {
-			"$oid": "642414addc7fc16277f61r82"
+			"$oid": "8ZkRjG5vfXut"
 		},
-		"name": "Fire HD 10 Kids Pro tablet",
-		"description": "introducing Fire HD 10 Kids Pro tablet, 10.1, 1080p Full HD, 32 GB, Doodle Kid-Friendly Case, for school-age children",
+		"name": "Men's chino casual stretch trousers",
+		"description": "Slightly loose cut on hips and thighs, straight leg. Sits at the waist, Soft, breathable cotton twill with light stretch, Closure: Zipper, 97% Cotton, 3% Elastane",
 		"brand": "Amazon",
-		"slug": "fire-hd-10-kids-pro-tablet",
+		"slug": "men-chino-casual-stretch-trousers",
 		"category": {
-			"$oid": "642414cddc7fc16277f61b83"
+			"$oid": "QMXBbwleNBqy"
 		},
 		"subCategories": [
 			{
-				"$oid": "642414dddc7fc16277f61b84"
-			}
-		],
-		"details": [
-			{
-				"name": "style",
-				"value": "Fire HD kids pro",
-				"_id": {
-					"$oid": "642414eddc7fc16277f61b85"
-				}
-			},
-			{
-				"name": "color",
-				"value": "Graffiti",
-				"_id": {
-					"$oid": "642414fddc7fc16277f61b86"
-				}
+				"$oid": "vr3SBsh6T8IM"
 			}
 		],
 		"questions": [],
 		"subProducts": [
 			{
-				"sku": "sw2206138988536738",
-				"discount": 30,
+				"sku": "sw2207138988536738",
 				"images": [
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg",
-						"public_url": "products/j9h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681657562/products/men%27s%20clothing/trousers/2/white/71R4IzzFFSL._AC_UY879__afos4y.jpg",
+						"public_url": "products/j9h8gilsorvqwnxgy61x"
 					},
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/2_rch0kv.jpg",
-						"public_url": "products/j1h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681657562/products/men%27s%20clothing/trousers/2/white/61waCMNVI4L._AC_UY879__mlprcm.jpg",
+						"public_url": "products/j1h8gimsorvqwnxgy61x"
 					},
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/3_xr6ehp.jpg",
-						"public_url": "products/j2h8giisorvqwnxgy61x"
-					},
-					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846429/products/electronics/tablet/blue/4_diviax.jpg",
-						"public_url": "products/j3h8giisorvqwnxgy61x"
-					}
-				],
-				"color": {
-					"color": "Himmelblau",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg"
-				},
-				"descriptionImages": [],
-				"sizes": [
-					{
-						"size": "10 inch",
-						"qty": "20",
-						"price": "214.99"
-					},
-					{
-						"size": "15 inch",
-						"qty": "12",
-						"price": "314.99"
-					}
-				]
-			},
-			{
-				"sku": "sw2206138988537738",
-				"discount": 24,
-				"images": [
-					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg",
-						"public_url": "products/j9h8giisorvqwnxgy61x"
-					},
-					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846505/products/electronics/tablet/purple/22_h73evn.jpg",
-						"public_url": "products/j1h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681657562/products/men%27s%20clothing/trousers/2/white/61D7qpoARPL._AC_UY879__ffpvyy.jpg",
+						"public_url": "products/j1h8ginsorvqwnxgy61x"
 					}
 				],
 				"descriptionImages": [],
 				"sizes": [
 					{
-						"size": "10 inch",
-						"qty": "20",
-						"price": "214.99"
+						"size": "30L",
+						"qty": 20,
+						"price": "29.50"
 					},
 					{
-						"size": "15 inch",
-						"qty": "12",
-						"price": "314.99"
+						"size": "32L",
+						"qty": 20,
+						"price": "29.70"
+					},
+					{
+						"size": "33L",
+						"qty": 20,
+						"price": "30.20"
+					},
+					{
+						"size": "34L",
+						"qty": 20,
+						"price": "30.40"
+					},
+					{
+						"size": "35L",
+						"qty": 20,
+						"price": "30.80"
 					}
 				],
 				"color": {
-					"color": "purple",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg"
+					"color": "#D3D3D3"
 				}
 			},
 			{
-				"sku": "sw2206138988536838",
-				"discount": 50,
+				"sku": "sw2208138988536738",
 				"images": [
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg",
-						"public_url": "products/j9h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681657966/products/men%27s%20clothing/trousers/2/NUTMEG/71ohxrnrSZL._AC_SY879._SX._UX._SY._UY__gilzz8.jpg",
+						"public_url": "products/j9h8gipsorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681657966/products/men%27s%20clothing/trousers/2/NUTMEG/71gMr07aaXL._AC_SY879._SX._UX._SY._UY__lz6mip.jpg",
+						"public_url": "products/j1h8giqsorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681657967/products/men%27s%20clothing/trousers/2/NUTMEG/91Y8lgd2WCL._AC_SY879._SX._UX._SY._UY__yzvcxt.jpg",
+						"public_url": "products/j1h8girsorvqwnxgy61x"
 					}
 				],
 				"descriptionImages": [],
 				"sizes": [
 					{
-						"size": "10 inch",
-						"qty": "20",
-						"price": "214.99"
+						"size": "30L",
+						"qty": 20,
+						"price": "29.50"
 					},
 					{
-						"size": "15 inch",
-						"qty": "12",
-						"price": "314.99"
+						"size": "32L",
+						"qty": 20,
+						"price": "29.70"
+					},
+					{
+						"size": "33L",
+						"qty": 20,
+						"price": "30.20"
+					},
+					{
+						"size": "34L",
+						"qty": 20,
+						"price": "30.40"
+					},
+					{
+						"size": "35L",
+						"qty": 20,
+						"price": "30.80"
 					}
 				],
 				"color": {
-					"color": "pink",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg"
+					"color": "#784839"
 				}
 			},
 			{
-				"sku": "sw2206138888536838",
-				"discount": 20,
+				"sku": "sw2219138988536738",
 				"images": [
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg",
-						"public_url": "products/j9h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681658078/products/men%27s%20clothing/trousers/2/Sage%20Green/91YcjXcDgXL._AC_SY879._SX._UX._SY._UY__acnn3v.jpg",
+						"public_url": "products/j9h8gissorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681658079/products/men%27s%20clothing/trousers/2/Sage%20Green/71FRV5YjbBL._AC_SY879._SX._UX._SY._UY__yf5meq.jpg",
+						"public_url": "products/j1h8gitsorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681658078/products/men%27s%20clothing/trousers/2/Sage%20Green/8192h-SuwtL._AC_SY879._SX._UX._SY._UY__kgshgy.jpg",
+						"public_url": "products/j1h8giusorvqwnxgy61x"
 					}
 				],
 				"descriptionImages": [],
 				"sizes": [
 					{
-						"size": "10 inch",
-						"qty": "20",
-						"price": "214.99"
+						"size": "30L",
+						"qty": 20,
+						"price": "29.50"
 					},
 					{
-						"size": "15 inch",
-						"qty": "12",
-						"price": "314.99"
+						"size": "32L",
+						"qty": 20,
+						"price": "29.70"
+					},
+					{
+						"size": "33L",
+						"qty": 20,
+						"price": "30.20"
+					},
+					{
+						"size": "34L",
+						"qty": 20,
+						"price": "30.40"
+					},
+					{
+						"size": "35L",
+						"qty": 20,
+						"price": "30.80"
 					}
 				],
 				"color": {
-					"color": "Graffiti",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg"
+					"color": "#B2AC88"
+				}
+			},
+			{
+				"sku": "sw2207208988536738",
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681658208/products/men%27s%20clothing/trousers/2/Dark%20Khaki/71wckuto80L._AC_SY879._SX._UX._SY._UY__mw3ybb.jpg",
+						"public_url": "products/j9h8gijjorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681658208/products/men%27s%20clothing/trousers/2/Dark%20Khaki/71KLKOzEhmL._AC_SY879._SX._UX._SY._UY__xx7foo.jpg",
+						"public_url": "products/j1h8gikkorvqwnxgy61x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681658208/products/men%27s%20clothing/trousers/2/Dark%20Khaki/71jNvyDil6L._AC_SY879._SX._UX._SY._UY__uiwxbk.jpg",
+						"public_url": "products/j1h8giooorvqwnxgy61x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "30L",
+						"qty": 20,
+						"price": "29.50"
+					},
+					{
+						"size": "32L",
+						"qty": 20,
+						"price": "29.70"
+					},
+					{
+						"size": "33L",
+						"qty": 20,
+						"price": "30.20"
+					},
+					{
+						"size": "34L",
+						"qty": 20,
+						"price": "30.40"
+					},
+					{
+						"size": "35L",
+						"qty": 20,
+						"price": "30.80"
+					}
+				],
+				"color": {
+					"color": "#D3D3D3"
+				}
+			}
+		],
+		"details": [
+			{
+				"name": "Manufacturer",
+				"value": "Amazon Essentials",
+				"_id": {
+					"$oid": "nweQsQcf7EUJ"
+				}
+			},
+			{
+				"name": "Item model number",
+				"value": "MAE60011FL18",
+				"_id": {
+					"$oid": "F6oanztOSqJV"
+				}
+			},
+			{
+				"name": "Department",
+				"value": "Men's",
+				"_id": {
+					"$oid": "1xEopCTE8AWZ"
 				}
 			}
 		],
@@ -845,166 +791,81 @@
 			"$date": "2023-04-07 04:46:04"
 		},
 		"__v": 15,
-		"numReviews": "5",
-		"rating": "3.5",
+		"numReviews": "10",
+		"rating": "4.5",
 		"reviews": []
 	},
 	{
 		"_id": {
-			"$oid": "642414gddc7fc16277f61b82"
+			"$oid": "66vGyUEe9lDN"
 		},
-		"name": "Fire HD 10 Kids Pro tablet",
-		"description": "introducing Fire HD 10 Kids Pro tablet, 10.1, 1080p Full HD, 32 GB, Doodle Kid-Friendly Case, for school-age children",
-		"brand": "Amazon",
-		"slug": "fire-hd-10-kids-pro-tablet",
+		"name": "HEALTH + VITAMIN D3 and K2",
+		"description": "HEALTH + VITAMIN D3 and K2, 90 capsules each 125 IU of vitamin D3 and 200 mcg of vitamin K2, high-dose vitamin D for strong bones and teeth, Health-Plus dietary supplement made in Germany",
+		"brand": "Health+",
+		"slug": "health-vitamin-d3-k2",
 		"category": {
-			"$oid": "642414hddc7fc16277f61b83"
+			"$oid": "8xObjXj9MZp3"
 		},
 		"subCategories": [
 			{
-				"$oid": "642414jddc7fc16277f61b84"
-			}
-		],
-		"details": [
-			{
-				"name": "style",
-				"value": "Fire HD kids pro",
-				"_id": {
-					"$oid": "642414kddc7fc16277f61b85"
-				}
-			},
-			{
-				"name": "color",
-				"value": "Graffiti",
-				"_id": {
-					"$oid": "642414lddc7fc16277f61b86"
-				}
+				"$oid": "jNKivs1kh56M"
 			}
 		],
 		"questions": [],
 		"subProducts": [
 			{
-				"sku": "sw2206138988536738",
-				"discount": 30,
+				"sku": "sw2207138988536111",
 				"images": [
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg",
-						"public_url": "products/j9h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681805708/products/health/1/61gj6nCdZ7L._AC_SX522__ixpamg.jpg",
+						"public_url": "products/j9h8gilsorvqwnxgy01x"
 					},
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/2_rch0kv.jpg",
-						"public_url": "products/j1h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681805707/products/health/1/71dUvtmfz8L._AC_SX522__lwdrmv.jpg",
+						"public_url": "products/j1h8gimsorvqwnxgy02x"
 					},
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/3_xr6ehp.jpg",
-						"public_url": "products/j2h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681805707/products/health/1/71LEgYjGVJL._AC_SX522__xki7ty.jpg",
+						"public_url": "products/j1h8ginsorvqwnxgy03x"
 					},
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846429/products/electronics/tablet/blue/4_diviax.jpg",
-						"public_url": "products/j3h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681805706/products/health/1/71ra3vbwYXL._AC_SX522__sphlsq.jpg",
+						"public_url": "products/j1h8ginsorvqwnxgy04x"
 					}
 				],
-				"color": {
-					"color": "Himmelblau",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg"
-				},
 				"descriptionImages": [],
 				"sizes": [
 					{
-						"size": "10 inch",
-						"qty": "20",
-						"price": "214.99"
-					},
-					{
-						"size": "15 inch",
-						"qty": "12",
-						"price": "314.99"
+						"size": "90 cps",
+						"qty": 20,
+						"price": "19.90"
 					}
-				]
-			},
+				],
+				"color": {
+					"color": "#fff"
+				}
+			}
+		],
+		"details": [
 			{
-				"sku": "sw2206138988537738",
-				"discount": 24,
-				"images": [
-					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg",
-						"public_url": "products/j9h8giisorvqwnxgy61x"
-					},
-					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846505/products/electronics/tablet/purple/22_h73evn.jpg",
-						"public_url": "products/j1h8giisorvqwnxgy61x"
-					}
-				],
-				"descriptionImages": [],
-				"sizes": [
-					{
-						"size": "10 inch",
-						"qty": "20",
-						"price": "214.99"
-					},
-					{
-						"size": "15 inch",
-						"qty": "12",
-						"price": "314.99"
-					}
-				],
-				"color": {
-					"color": "purple",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg"
+				"name": "Flavour",
+				"value": "Tasteless",
+				"_id": {
+					"$oid": "zRHdh9Y6HaUe"
 				}
 			},
 			{
-				"sku": "sw2206138988536838",
-				"discount": 50,
-				"images": [
-					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg",
-						"public_url": "products/j9h8giisorvqwnxgy61x"
-					}
-				],
-				"descriptionImages": [],
-				"sizes": [
-					{
-						"size": "10 inch",
-						"qty": "20",
-						"price": "214.99"
-					},
-					{
-						"size": "15 inch",
-						"qty": "12",
-						"price": "314.99"
-					}
-				],
-				"color": {
-					"color": "pink",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg"
+				"name": "Units",
+				"value": "90 caplsules",
+				"_id": {
+					"$oid": "SyyyodTfzYDv"
 				}
 			},
 			{
-				"sku": "sw2206138888536838",
-				"discount": 20,
-				"images": [
-					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg",
-						"public_url": "products/j9h8giisorvqwnxgy61x"
-					}
-				],
-				"descriptionImages": [],
-				"sizes": [
-					{
-						"size": "10 inch",
-						"qty": "20",
-						"price": "214.99"
-					},
-					{
-						"size": "15 inch",
-						"qty": "12",
-						"price": "314.99"
-					}
-				],
-				"color": {
-					"color": "Graffiti",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg"
+				"name": "Item weight",
+				"value": "0.04 Kilograms",
+				"_id": {
+					"$oid": "nMS7J1rGDjLg"
 				}
 			}
 		],
@@ -1014,168 +875,606 @@
 		"updatedAt": {
 			"$date": "2023-04-07 04:46:04"
 		},
-		"__v": 15,
-		"numReviews": "5",
-		"rating": "3.5",
+		"__v": 590,
+		"numReviews": "10",
+		"rating": "2.5",
 		"reviews": []
 	},
 	{
 		"_id": {
-			"$oid": "642414mddc7fc16277f61b82"
+			"$oid": "BzroNy78k3g1"
 		},
-		"name": "Fire HD 10 Kids Pro tablet",
-		"description": "introducing Fire HD 10 Kids Pro tablet, 10.1, 1080p Full HD, 32 GB, Doodle Kid-Friendly Case, for school-age children",
-		"brand": "Amazon",
-		"slug": "fire-hd-10-kids-pro-tablet",
+		"name": "Withings Blood Pressure Monitor(BPM) Connect",
+		"description": "Blood pressure: systolic and diastolic plus heart rate, CE certification for medical devices + FDA approval for USA, quickly display directly on the device, easy to understand picture of all blood pressure measurement results. ",
+		"brand": "Withings",
+		"slug": "withings-blood-pressure-monitor-connect",
 		"category": {
-			"$oid": "642414nddc7fc16277f61b83"
+			"$oid": "8xObjXj9MZp3"
 		},
 		"subCategories": [
 			{
-				"$oid": "642414oddc7fc16277f61b84"
+				"$oid": "iEocvvZ1xvWn"
+			}
+		],
+		"questions": [],
+		"subProducts": [
+			{
+				"sku": "sw2207138988536112",
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681806218/products/health/2/91Al9cVgbgS._AC_SX522__pkai0l.jpg",
+						"public_url": "products/j9h8gilsorvqwnxgy05x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681806218/products/health/2/817cnl8hFCS._AC_SX522__ufa9z0.jpg",
+						"public_url": "products/j1h8gimsorvqwnxgy06x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681806218/products/health/2/81MbLHApTuS._AC_SX522__hdhoys.jpg",
+						"public_url": "products/j1h8ginsorvqwnxgy07x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681806218/products/health/2/817HJCof_XS._AC_SX522__nb8z6l.jpg",
+						"public_url": "products/j1h8ginsorvqwnxgy08x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "free",
+						"qty": 80,
+						"price": "129.95"
+					}
+				],
+				"color": {
+					"color": "#D3D3D3"
+				}
+			}
+		],
+		"details": [
+			{
+				"name": "Power source",
+				"value": "batteries",
+				"_id": {
+					"$oid": "Gzc8rMqIz67E"
+				}
+			},
+			{
+				"name": "Item weight",
+				"value": "0.25 Grams",
+				"_id": {
+					"$oid": "7iatATZ7h1hg"
+				}
+			},
+			{
+				"name": "Band size",
+				"value": "42 centimeters",
+				"_id": {
+					"$oid": "gCcQw5nFd1aR"
+				}
+			}
+		],
+		"createdAt": {
+			"$date": "2023-04-04 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2023-04-07 04:46:04"
+		},
+		"__v": 590,
+		"numReviews": "10",
+		"rating": "2.5",
+		"reviews": []
+	},
+	{
+		"_id": {
+			"$oid": "7l0lSYdIaxMI"
+		},
+		"name": "Bagless Battery Handheld Vacuum Cleaner",
+		"description": "Innovative 3-in-1 function for maximum flexibility, As powerful as a conventional vacuum cleaner., Replaceable Li-ion battery. For up to 60 minutes Runtime",
+		"brand": "Miele",
+		"slug": "bagless-battery-handheld-vacuum-cleaner",
+		"category": {
+			"$oid": "TRoVo51olyyt"
+		},
+		"subCategories": [
+			{
+				"$oid": "9uKDGtayfdlN"
+			}
+		],
+		"questions": [],
+		"subProducts": [
+			{
+				"sku": "sw2207138988536113",
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681807030/products/homeAppliance/vaccum/red/51AMczn82BS._AC_SX679__nb75hs.jpg",
+						"public_url": "products/j9h8gilsorvqwnxgy09x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681807030/products/homeAppliance/vaccum/red/613MIbV3zhS._AC_SX679__upp544.jpg",
+						"public_url": "products/j1h8gimsorvqwnxgy10x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681807031/products/homeAppliance/vaccum/red/71iqTOrayOS._AC_SX679__ux8eee.jpg",
+						"public_url": "products/j1h8ginsorvqwnxgy11x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681807031/products/homeAppliance/vaccum/red/61I1HJoBXtS._AC_SX679__gn4vu7.jpg",
+						"public_url": "products/j1h8ginsorvqwnxgy12x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "3 peices",
+						"qty": 80,
+						"price": "567.22"
+					}
+				],
+				"color": {
+					"color": "#E0115F"
+				}
+			},
+			{
+				"sku": "sw2207138988536114",
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681807065/products/homeAppliance/vaccum/black/51og6ub5iiS._AC_SX679__sz5odp.jpg",
+						"public_url": "products/j9h8gilsorvqwnxgy13x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681807065/products/homeAppliance/vaccum/black/61itGJbXcMS._AC_SX679__glm1rd.jpg",
+						"public_url": "products/j1h8gimsorvqwnxgy14x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681807065/products/homeAppliance/vaccum/black/71b6iF-N-JS._AC_SX679__ws4hqk.jpg",
+						"public_url": "products/j1h8ginsorvqwnxgy15x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "3 peices",
+						"qty": 80,
+						"price": "567.22"
+					}
+				],
+				"color": {
+					"color": "#4f555b"
+				}
+			}
+		],
+		"createdAt": {
+			"$date": "2023-04-04 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2023-04-07 04:46:04"
+		},
+		"__v": 590,
+		"numReviews": "10",
+		"rating": "2.5",
+		"reviews": []
+	},
+	{
+		"_id": {
+			"$oid": "Rr3VTtMy4xJI"
+		},
+		"name": "Navaris Storage Boxes Organiser System",
+		"description": "Universal organisation system: with this storage basket, you can finally get order in your room. Use the boxes to create space and store all items well. Also suitable for a cupboard or changing table. Various sizes: includes 8 boxes measuring 14 x 14 x 10 cm and 4 boxes measuring 28 x 14 x 10 cm. So the lightweight baskets can be used in a variety of ways according to your wishes in the home.",
+		"brand": "Navaris",
+		"slug": "bagless-battery-handheld-vacuum-cleaner",
+		"category": {
+			"$oid": "TRoVo51olyyt"
+		},
+		"subCategories": [
+			{
+				"$oid": "9uKDGtayfdlN"
+			}
+		],
+		"questions": [],
+		"subProducts": [
+			{
+				"sku": "sw2207138988536115",
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681807364/products/homeAppliance/Drawer/1/81hiq1oXvmL._AC_SX679__vxmru3.jpg",
+						"public_url": "products/j9h8gilsorvqwnxgy16x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681807364/products/homeAppliance/Drawer/1/81DJcGiBjSL._AC_SX679__m4ubmx.jpg",
+						"public_url": "products/j1h8gimsorvqwnxgy17x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681807364/products/homeAppliance/Drawer/1/81pn1a8w2KL._AC_SX679__uez489.jpg",
+						"public_url": "products/j1h8ginsorvqwnxgy18x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681807362/products/homeAppliance/Drawer/1/81VOaY5AwIL._AC_SX679__vxyrkd.jpg",
+						"public_url": "products/j1h8ginsorvqwnxgy19x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "gray",
+						"qty": 80,
+						"price": "27.99"
+					}
+				],
+				"color": {
+					"color": "#808080"
+				}
+			},
+			{
+				"sku": "sw2207138988536116",
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681807370/products/homeAppliance/Drawer/2/71WDJrFsCjL._AC_SX679__piimah.jpg",
+						"public_url": "products/j9h8gilsorvqwnxgy20x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681807371/products/homeAppliance/Drawer/2/71zIdX0yH9L._AC_SX679__cqa4x2.jpg",
+						"public_url": "products/j1h8gimsorvqwnxgy21x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681807371/products/homeAppliance/Drawer/2/71ZvssauqCL._AC_SX679__hfiv4f.jpg",
+						"public_url": "products/j1h8ginsorvqwnxgy22x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "white-gray",
+						"qty": 80,
+						"price": "26.99"
+					}
+				],
+				"color": {
+					"color": "#D6D5CB"
+				}
+			}
+		],
+		"createdAt": {
+			"$date": "2023-04-04 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2023-04-07 04:46:04"
+		},
+		"__v": 590,
+		"numReviews": "10",
+		"rating": "2.5",
+		"reviews": []
+	},
+	{
+		"_id": {
+			"$oid": "hhBeC84Y2p7u"
+		},
+		"name": "Toy for Hanging, Sensory Toy",
+		"description": "This is a well-designed sensory toy for teething babies and curious toddlers. Bright colors to stimulate baby's vision Train hand dexterity and promote tactile reaction by pulling the silicone cord up and down and pressing the buttons.",
+		"brand": "Oderra",
+		"slug": "toy-for-hanging-sensory-toy",
+		"discount": 20,
+		"category": {
+			"$oid": "1gg54eYN7Z4Q"
+		},
+		"subCategories": [
+			{
+				"$oid": "qExw4yaQ54J0"
+			}
+		],
+		"questions": [],
+		"subProducts": [
+			{
+				"sku": "sw2207138988536117",
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681810461/products/toys/1/2/7116p9HaKSL._AC_SX679__lfanut.jpg",
+						"public_url": "products/j9h8gilsorvqwnxgy23x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681810462/products/toys/1/2/71Fmzx1gyWL._AC_SX679__hyc4ld.jpg",
+						"public_url": "products/j1h8gimsorvqwnxgy24x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681810462/products/toys/1/2/71CjNdz5ISL._AC_SX679__gx24bx.jpg",
+						"public_url": "products/j1h8ginsorvqwnxgy25x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681810461/products/toys/1/2/61wMsisfVrL._AC_SX679__yzgffs.jpg",
+						"public_url": "products/j1h8ginsorvqwnxgy26x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "A",
+						"qty": 80,
+						"price": "13.72"
+					}
+				],
+				"color": {}
+			},
+			{
+				"sku": "sw2207138988536118",
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681810467/products/toys/1/1/71dwDIIVnxL._AC_SX679__ios4sb.jpg",
+						"public_url": "products/j9h8gilsorvqwnxgy27x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681810467/products/toys/1/1/717roAMuaOL._AC_SX679__zmde58.jpg",
+						"public_url": "products/j1h8gimsorvqwnxgy28x"
+					},
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681810467/products/toys/1/1/71Bwfef0a5L._AC_SX679__fxcom1.jpg",
+						"public_url": "products/j1h8ginsorvqwnxgy29x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "B",
+						"qty": 80,
+						"price": "14.99"
+					}
+				],
+				"color": {}
+			}
+		],
+		"createdAt": {
+			"$date": "2023-04-04 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2023-04-07 04:46:04"
+		},
+		"__v": 590,
+		"numReviews": "10",
+		"rating": "2.5",
+		"reviews": []
+	},
+	{
+		"_id": {
+			"$oid": "VKYqVoAHDCIv"
+		},
+		"name": "MAYFASEY Women's Vintage Floral Print Dress",
+		"description": "This is a well-designed sensory toy for teething babies and curious toddlers. Bright colors to stimulate baby's vision Train hand dexterity and promote tactile reaction by pulling the silicone cord up and down and pressing the buttons.",
+		"brand": "Oderra",
+		"slug": "mayfasey-women-vintage-floral-print-dress",
+		"discount": 10,
+		"category": {
+			"$oid": "a0i13UT2wuid"
+		},
+		"subCategories": [
+			{
+				"$oid": "uA8D8ZW1rA3w"
+			}
+		],
+		"questions": [],
+		"subProducts": [
+			{
+				"sku": "sw2207138988536119",
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780873/products/women%27s%20clothing/dress/2/5_iw2kgb.jpg",
+						"public_url": "products/j9h8gilsorvqwnxgy30x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "S",
+						"qty": 80,
+						"price": "19.72"
+					},
+					{
+						"size": "M",
+						"qty": 80,
+						"price": "19.72"
+					},
+					{
+						"size": "L",
+						"qty": 80,
+						"price": "19.72"
+					}
+				],
+				"color": {
+					"color": "#00FF00"
+				}
+			},
+			{
+				"sku": "sw2207138988536120",
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780872/products/women%27s%20clothing/dress/2/2_rigl8a.jpg",
+						"public_url": "products/j9h8gilsorvqwnxgy27x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "S",
+						"qty": 80,
+						"price": "19.72"
+					},
+					{
+						"size": "M",
+						"qty": 80,
+						"price": "19.72"
+					},
+					{
+						"size": "L",
+						"qty": 80,
+						"price": "19.72"
+					}
+				],
+				"color": {
+					"color": "#FFC0CB"
+				}
+			},
+			{
+				"sku": "sw2207138988536121",
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780871/products/women%27s%20clothing/dress/2/1_fxmsna.jpg",
+						"public_url": "products/j9h8gilsorvqwnxgy28x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "S",
+						"qty": 80,
+						"price": "19.72"
+					},
+					{
+						"size": "M",
+						"qty": 80,
+						"price": "19.72"
+					},
+					{
+						"size": "L",
+						"qty": 80,
+						"price": "19.72"
+					}
+				],
+				"color": {
+					"color": "#ADD8E6"
+				}
+			},
+			{
+				"sku": "sw2207138988536122",
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780866/products/women%27s%20clothing/dress/2/3_k3wknl.jpg",
+						"public_url": "products/j9h8gilsorvqwnxgy29x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "S",
+						"qty": 80,
+						"price": "19.72"
+					},
+					{
+						"size": "M",
+						"qty": 80,
+						"price": "19.72"
+					},
+					{
+						"size": "L",
+						"qty": 80,
+						"price": "19.72"
+					}
+				],
+				"color": {
+					"color": "#808080"
+				}
+			},
+			{
+				"sku": "sw2207138988536123",
+				"images": [
+					{
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780866/products/women%27s%20clothing/dress/2/4_sqiw5s.jpg",
+						"public_url": "products/j9h8gilsorvqwnxgy30x"
+					}
+				],
+				"descriptionImages": [],
+				"sizes": [
+					{
+						"size": "S",
+						"qty": 80,
+						"price": "19.72"
+					},
+					{
+						"size": "M",
+						"qty": 80,
+						"price": "19.72"
+					},
+					{
+						"size": "L",
+						"qty": 80,
+						"price": "19.72"
+					}
+				],
+				"color": {
+					"color": "#00008B"
+				}
+			}
+		],
+		"createdAt": {
+			"$date": "2023-04-04 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2023-04-07 04:46:04"
+		},
+		"__v": 590,
+		"numReviews": "10",
+		"rating": "2.5",
+		"reviews": []
+	},
+	{
+		"_id": {
+			"$oid": "djQqZtt45Tv1"
+		},
+		"name": "Limhamn ArmChair - Black",
+		"description": "Stylish, timeless and modern - a dining chair with everything quite simple. Limhamn dining chair is a modern favourite in many households",
+		"brand": "Venture Home",
+		"slug": "limhamn-armChair-black",
+		"category": {
+			"$oid": "TRoVo51olyyt"
+		},
+		"subCategories": [
+			{
+				"$oid": "1VZjdmqsHGcC"
 			}
 		],
 		"details": [
 			{
 				"name": "style",
-				"value": "Fire HD kids pro",
+				"value": "Modern",
 				"_id": {
-					"$oid": "642414pddc7fc16277f61b85"
+					"$oid": "xLYdazy3Dp3B"
 				}
 			},
 			{
-				"name": "color",
-				"value": "Graffiti",
+				"name": "Material",
+				"value": "Metall",
 				"_id": {
-					"$oid": "642414qddc7fc16277f61b86"
+					"$oid": "KawHPCfWM0Xq"
 				}
 			}
 		],
 		"questions": [],
 		"subProducts": [
 			{
-				"sku": "sw2206138988536738",
+				"sku": "sw2206138988536124",
 				"discount": 30,
 				"images": [
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg",
-						"public_url": "products/j9h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681811658/products/homeAppliance/armchair/71u7aC1WaAL._AC_SY879__zkhtwf.jpg",
+						"public_url": "products/j9h8giisorvqwnxgy31x"
 					},
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/2_rch0kv.jpg",
-						"public_url": "products/j1h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681811657/products/homeAppliance/armchair/51-yUgbrJ3L._AC_SY879__lghmp3.jpg",
+						"public_url": "products/j1h8giisorvqwnxgy32x"
 					},
 					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846430/products/electronics/tablet/blue/3_xr6ehp.jpg",
-						"public_url": "products/j2h8giisorvqwnxgy61x"
-					},
-					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846429/products/electronics/tablet/blue/4_diviax.jpg",
-						"public_url": "products/j3h8giisorvqwnxgy61x"
+						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681811657/products/homeAppliance/armchair/5131ZqC1kjL.__AC_SX300_SY300_QL70_ML2__prvuun.jpg",
+						"public_url": "products/j2h8giisorvqwnxgy33x"
 					}
 				],
 				"color": {
-					"color": "Himmelblau",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846474/products/electronics/tablet/blue/1_kpjqlw.jpg"
+					"color": "#000"
 				},
 				"descriptionImages": [],
 				"sizes": [
 					{
-						"size": "10 inch",
-						"qty": "20",
+						"size": "A",
+						"qty": 20,
 						"price": "214.99"
-					},
-					{
-						"size": "15 inch",
-						"qty": "12",
-						"price": "314.99"
 					}
 				]
-			},
-			{
-				"sku": "sw2206138988537738",
-				"discount": 24,
-				"images": [
-					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg",
-						"public_url": "products/j9h8giisorvqwnxgy61x"
-					},
-					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846505/products/electronics/tablet/purple/22_h73evn.jpg",
-						"public_url": "products/j1h8giisorvqwnxgy61x"
-					}
-				],
-				"descriptionImages": [],
-				"sizes": [
-					{
-						"size": "10 inch",
-						"qty": "20",
-						"price": "214.99"
-					},
-					{
-						"size": "15 inch",
-						"qty": "12",
-						"price": "314.99"
-					}
-				],
-				"color": {
-					"color": "purple",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680846511/products/electronics/tablet/purple/2_ygs8ni.jpg"
-				}
-			},
-			{
-				"sku": "sw2206138988536838",
-				"discount": 50,
-				"images": [
-					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg",
-						"public_url": "products/j9h8giisorvqwnxgy61x"
-					}
-				],
-				"descriptionImages": [],
-				"sizes": [
-					{
-						"size": "10 inch",
-						"qty": "20",
-						"price": "214.99"
-					},
-					{
-						"size": "15 inch",
-						"qty": "12",
-						"price": "314.99"
-					}
-				],
-				"color": {
-					"color": "pink",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780839/products/electronics/tablet/4_u21kr3.jpg"
-				}
-			},
-			{
-				"sku": "sw2206138888536838",
-				"discount": 20,
-				"images": [
-					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg",
-						"public_url": "products/j9h8giisorvqwnxgy61x"
-					}
-				],
-				"descriptionImages": [],
-				"sizes": [
-					{
-						"size": "10 inch",
-						"qty": "20",
-						"price": "214.99"
-					},
-					{
-						"size": "15 inch",
-						"qty": "12",
-						"price": "314.99"
-					}
-				],
-				"color": {
-					"color": "Graffiti",
-					"image": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1680780834/products/electronics/tablet/3_ionl8a.jpg"
-				}
 			}
 		],
 		"createdAt": {

@@ -21,10 +21,6 @@ function ProductsCard({ product }) {
 			return p.color;
 		}),
 	);
-	const newPrice = Math.round(
-		price[0] - price[0] / product.subProducts[active].discount,
-		2,
-	);
 	useEffect(() => {
 		setImages(product.subProducts[active].images);
 		setPrice(
@@ -68,9 +64,11 @@ function ProductsCard({ product }) {
 						<div className={styless.color}>
 							{styles &&
 								styles.map((style, i) =>
-									style.image ? (
-										<img
-											src={style.image}
+									style.color ? (
+										<div
+											style={{
+												backgroundColor: `${product.subProducts[i].color.color}`,
+											}}
 											className={i == active && style.active}
 											onMouseEnter={() => {
 												setImages(product.subProducts[i].images);

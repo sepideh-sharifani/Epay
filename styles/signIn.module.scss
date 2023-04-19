@@ -14,9 +14,10 @@
 			width: 40rem;
 		}
 	}
+
 	&__main {
 		width: 100%;
-		min-height: 40rem;
+		// min-height: 40rem;
 		border-radius: 5px;
 		overflow: hidden;
 		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -56,12 +57,11 @@
 		.right {
 			position: relative;
 			width: 60%;
-			min-height: 100%;
 			display: flex;
-			flex-grow: 3;
-			justify-content: center;
+			justify-content: space-between;
 			align-items: center;
 			flex-direction: column;
+			gap: 30px;
 			animation: slide-up 0.5s ease;
 			.img1 {
 				display: none;
@@ -113,6 +113,7 @@
 					color: $dark-red;
 					font-size: 15px;
 					padding: 0 3px;
+					align-self: flex-start;
 				}
 				.password {
 					position: relative;
@@ -150,15 +151,22 @@
 					}
 				}
 			}
-			.text {
-				font-size: 15px;
+			.flex {
+				display: flex;
 				align-self: flex-start;
-				padding: 3px 55px;
-				&:hover {
-					color: $dark-blue;
-					text-decoration: underline;
+				justify-content: flex-start;
+				flex-direction: column;
+				.text {
+					font-size: 15px;
+					align-self: flex-start;
+					padding: 3px 55px;
+					&:hover {
+						color: $dark-blue;
+						text-decoration: underline;
+					}
 				}
 			}
+
 			.socials {
 				margin: 20px 0;
 				.btn {
@@ -201,7 +209,7 @@
 					display: block;
 					width: 300px;
 					margin: 0 auto;
-					padding: 10px;
+					padding: 35px 10px;
 				}
 			}
 		}

@@ -1,7 +1,7 @@
 [
 	{
 		"_id": {
-			"$oid": "647414bddc7fc16277f61b84"
+			"$oid": "kU15ybuLmjcq"
 		},
 		"name": "Electronics",
 		"slug": "electronics",
@@ -15,7 +15,7 @@
 	},
 	{
 		"_id": {
-			"$oid": "642415bddc7fc16277f61b84"
+			"$oid": "a0i13UT2wuid"
 		},
 		"name": "Women's Clothing",
 		"slug": "women's-clothing",
@@ -29,7 +29,7 @@
 	},
 	{
 		"_id": {
-			"$oid": "643414bddc7fc16277f61b84"
+			"$oid": "QMXBbwleNBqy"
 		},
 		"name": "Men's Clothing",
 		"slug": "men's-clothing",
@@ -43,7 +43,7 @@
 	},
 	{
 		"_id": {
-			"$oid": "648714bddc7fc16277f61b84"
+			"$oid": "TRoVo51olyyt"
 		},
 		"name": "Home Appliances",
 		"slug": "home-appliances",
@@ -61,6 +61,34 @@
 		},
 		"name": "Watch",
 		"slug": "watch",
+		"createdAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "8xObjXj9MZp3"
+		},
+		"name": "Health",
+		"slug": "health",
+		"createdAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"updatedAt": {
+			"$date": "2022-04-07 04:46:04"
+		},
+		"__v": 0
+	},
+	{
+		"_id": {
+			"$oid": "1gg54eYN7Z4Q"
+		},
+		"name": "Toy",
+		"slug": "toy",
 		"createdAt": {
 			"$date": "2022-04-07 04:46:04"
 		},

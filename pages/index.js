@@ -3,7 +3,6 @@ import styles from 'styles/Home.module.scss';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import { useSession } from 'next-auth/react';
-import Main from '../components/home/main';
 import FlashSale from '../components/home/flashSale';
 import ProductCategory from '../components/home/category';
 import Banner from '../components/home/banner';
@@ -11,18 +10,22 @@ import Product from '../models/Product';
 import ProductsCard from '../components/products';
 import db from '../utils/db';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
+import HeaderMain from '../components/menuBar/HeaderMain';
+import Main from '../components/home/main';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home({ products }) {
 	const { data: session } = useSession();
+
 	return (
 		<>
 			<Header />
+			<HeaderMain />
 			<div className={styles.home}>
 				<div className={styles.mainContainer}>
 					<Main />
-					<FlashSale />
+					<FlashSale products={products} />
 					<ProductCategory />
 					<Banner />
 					<div className={styles.product}>

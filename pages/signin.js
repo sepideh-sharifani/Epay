@@ -11,7 +11,7 @@ import * as Yup from 'yup';
 import { getProviders } from 'next-auth/react';
 import { signIn } from 'next-auth/react';
 import SignUpLoader from '../components/Loader/SignUpLoader';
-import Router from 'next/router';
+import { useRouter } from 'next/router';
 
 const initialState = {
 	login_email: '',
@@ -24,6 +24,7 @@ const signin = ({ providers }) => {
 	const [showPassword, setShowPassword] = useState(false);
 	const [user, setUser] = useState(initialState);
 	const { login_email, login_password, login_error } = user;
+	const router = useRouter();
 
 	const handleChange = (e) => {
 		const { name, value } = e.target;
@@ -57,7 +58,7 @@ const signin = ({ providers }) => {
 			setLoading(false);
 			setUser({ ...user, login_error: res?.error });
 		} else {
-			return Router.back;
+			return router.back();
 		}
 	};
 	return (
@@ -66,6 +67,12 @@ const signin = ({ providers }) => {
 			<section className={styles.login}>
 				<div className={styles.login__container}>
 					<div className={styles.login__main}>
+						<Link href='/'>
+							<AiOutlineClose
+								onClick={() => handleClose()}
+								className={styles.close}
+							/>
+						</Link>
 						<div className={styles.left}>
 							<img
 								className={styles.img2}
@@ -74,13 +81,6 @@ const signin = ({ providers }) => {
 							/>
 						</div>
 						<div className={styles.right}>
-							<Link href='/'>
-								<AiOutlineClose
-									onClick={() => handleClose()}
-									className={styles.close}
-								/>
-							</Link>
-
 							<img
 								className={styles.img1}
 								src='./images/welcome.png'
@@ -138,17 +138,19 @@ const signin = ({ providers }) => {
 									</Form>
 								)}
 							</Formik>
+							<div className={styles.flex}>
+								<Link
+									className={styles.text}
+									href='#'>
+									Forget password
+								</Link>
+								<span className={styles.text}>
+									Dont have an account? <Link href='/signup'>Register</Link>
+								</span>
+							</div>
 							<div className={styles.error}>
 								{login_error && <span>{login_error}</span>}
 							</div>
-							<Link
-								className={styles.text}
-								href='#'>
-								Forget password
-							</Link>
-							<span className={styles.text}>
-								Dont have an account? <Link href='/signup'>Register</Link>
-							</span>
 						</div>
 					</div>
 				</div>

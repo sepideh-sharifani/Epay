@@ -76,7 +76,7 @@ const productSchema = new mongoose.Schema(
 			required: true,
 			default: 0,
 		},
-		numReview: {
+		numReviews: {
 			type: Number,
 			required: true,
 			default: 0,
@@ -84,6 +84,7 @@ const productSchema = new mongoose.Schema(
 		//if one product has different features e.g one color has discount but the other doesn't
 		subProducts: [
 			{
+				sku: String,
 				images: [],
 				descriptionImages: [],
 				color: {

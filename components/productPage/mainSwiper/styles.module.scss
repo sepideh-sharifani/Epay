@@ -1,0 +1,46 @@
+.productSwiper {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	background-color: $light-gray;
+	padding: 10px 20px 0 20px;
+	border-radius: 20px;
+	&__list {
+		margin: 10px 10px 5px 0;
+		display: flex;
+		gap: 10px;
+		width: 60px;
+	}
+	&__active {
+		z-index: 100;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: $white;
+		border-radius: 10px;
+		img {
+			object-fit: contain;
+			width: 90%;
+		}
+	}
+	@media (min-width: 800px) {
+		flex-direction: row-reverse;
+		justify-content: flex-end;
+		align-items: flex-start;
+		gap: 10px;
+		&__list {
+			flex-direction: column;
+			gap: 2px;
+		}
+		&__active {
+			img {
+				width: 100%;
+				object-fit: cover;
+			}
+		}
+	}
+}
+
+.active {
+	outline: 2px solid $dark-blue;
+}

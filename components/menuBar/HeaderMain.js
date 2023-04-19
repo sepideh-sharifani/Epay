@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from './styles.module.scss';
+import styles from '../Header/styles.module.scss';
 import { RiSearch2Line } from 'react-icons/ri';
 import { BsCart, BsSuitHeart } from 'react-icons/bs';
 import { useSelector } from 'react-redux';
@@ -7,9 +7,9 @@ import { TbCategory } from 'react-icons/tb';
 import useMediaQuery from '../../hooks/useMediaQuery';
 import { HiMenu } from 'react-icons/hi';
 import { useState, useRef, useEffect } from 'react';
-import ProductMenu from './ProductMenu';
+import ProductMenu from '../Header/ProductMenu';
 
-function Main() {
+function HeaderMain() {
 	const mediaQuery = useMediaQuery('(min-width:870px)');
 	const [visible, setVisible] = useState(false);
 	const { cart } = useSelector((state) => ({ ...state }));
@@ -77,4 +77,4 @@ function Main() {
 	);
 }
 
-export default Main;
+export default HeaderMain;
