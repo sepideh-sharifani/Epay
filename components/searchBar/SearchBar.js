@@ -40,7 +40,9 @@ function SearchBar() {
 					<Link href='/cart'>
 						<div>
 							<BsCart />
-							<span className={styles.icons__cart}>0</span>
+							<span className={styles.icons__cart}>
+								{cart.cartItems.length}
+							</span>
 						</div>
 					</Link>
 

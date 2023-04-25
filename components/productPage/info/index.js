@@ -4,12 +4,19 @@ import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { TbMinus, TbPlus } from 'react-icons/tb';
-import { BsHandbagFill } from 'react-icons/bs';
+import { BsHandbagFill, BsHeart, BsHeartFill } from 'react-icons/bs';
 import Details from './Details';
+import db from '../../../utils/db';
+import axios from 'axios';
+import { useDispatch, useSelector } from 'react-redux';
+import { addToCart, updateCart } from '../../../store/cartSlice';
 function Infos({ product }) {
 	const router = useRouter();
 	const [sizee, setSizee] = useState(router.query.size);
 	const [qty, setQty] = useState(0);
+	const [error, setError] = useState('');
+	const dispatch = useDispatch();
+	const { cart } = useSelector((state) => ({ ...state }));
 	useEffect(() => {
 		setSizee('');
 		setQty(0);
@@ -19,6 +26,38 @@ function Infos({ product }) {
 			setQty(product.quantity);
 		}
 	}, [router.query.size]);
+	const addToCartHandler = async () => {
+		//make sure that the data exsits
+		if (!router.query.size) {
+			setError('please select a size');
+			return;
+		}
+		const { data } = await axios.get(
+			`/api/product/${product._id}?style=${product.style}&size=${router.query.size}`,
+		);
+		if (qty > data.quantity) {
+			setError(
+				'The Quantity you have chosen is more than in stock. try and lower the quantity',
+			);
+		} else if (data.quantity < 1) {
+			setError('This Product is out of stock');
+		} else {
+			// in order to make a unique id for each product with its own size and style
+			let _uid = `${data._id}_${product.style}_${router.query.size}`;
+			let exist = cart.cartItems.find((p) => p._uid === _uid);
+			if (exist) {
+				let newCart = cart.cartItems.map((p) => {
+					if (p._uid === exist._uid) {
+						return { ...p, qty: qty };
+					}
+					return p;
+				});
+				dispatch(updateCart(newCart));
+			} else {
+				dispatch(addToCart({ ...data, qty, size: data.size, _uid }));
+			}
+		}
+	};
 	return (
 		<div className={styles.infos}>
 			<div className={styles.infos__container}>
@@ -101,6 +140,7 @@ function Infos({ product }) {
 				<div className={styles.infos__actions}>
 					<button
 						className={styles.cartBtn}
+						onClick={() => addToCartHandler()}
 						disabled={product.quantity < 1}
 						style={{
 							cursor: `${product.quantity < 1 ? 'not-allowed' : 'pointer'}`,
@@ -108,7 +148,11 @@ function Infos({ product }) {
 						<BsHandbagFill />
 						Add to cart
 					</button>
-					{/* <button className={styles.wishListBtn}>wishlist</button> */}
+					<button className={styles.wishListBtn}>
+						<BsHeartFill />
+						wishlist
+					</button>
+					{error && <span className={styles.error}>{error}</span>}
 				</div>
 				<Details details={[product.description, ...product.details]} />
 			</div>

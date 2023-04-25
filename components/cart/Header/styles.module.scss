@@ -1,0 +1,24 @@
+@import '../base';
+.cart {
+	&__header {
+		height: 120px;
+		padding: 20px 10px;
+		background-color: $light-gray;
+	}
+}
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 10px;
+	.checkbox {
+		border: 1px solid gray;
+		border-radius: 50%;
+		width: 25px;
+		height: 25px;
+		cursor: pointer;
+		&:focus {
+			border-color: greenyellow;
+		}
+	}
+}
