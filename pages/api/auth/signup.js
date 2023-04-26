@@ -5,7 +5,7 @@
 import nc from 'next-connect';
 import db from '../../../utils/db';
 import { validateEmail } from '../../../utils/validation';
-import User from '../../../models/user';
+import User from '../../../models/User';
 import bcrypt from 'bcrypt';
 
 const handler = nc();
