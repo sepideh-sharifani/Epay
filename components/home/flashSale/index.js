@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper';
 import { flashSaleItems } from '../../../data/data.js';
-import Card from '../flashSale/Card';
+import Card from './Cardsss';
 
 function FlashSale({ products }) {
 	const discountedProducts = products.filter((product) =>
