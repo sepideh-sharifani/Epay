@@ -20,7 +20,7 @@
 		border-radius: 10px;
 		img {
 			object-fit: contain;
-			width: 90%;
+			width: 80%;
 		}
 	}
 	@media (min-width: 800px) {
@@ -34,8 +34,10 @@
 		}
 		&__active {
 			img {
-				width: 100%;
-				object-fit: cover;
+				max-width: 400px;
+				object-fit: contain;
+				margin-left: 50px;
+				padding: 10px;
 			}
 		}
 	}

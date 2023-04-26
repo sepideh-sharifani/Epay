@@ -11,8 +11,6 @@ import Magnifier from 'react-magnifier';
 function MainSwiper({ images, activeImage }) {
 	const mediaQuery = useMediaQuery('(max-width:800px)');
 	const [active, setActive] = useState(0);
-	console.log(images);
-
 	return (
 		<>
 			{mediaQuery ? (
@@ -34,7 +32,10 @@ function MainSwiper({ images, activeImage }) {
 			) : (
 				<div className={styles.productSwiper}>
 					<div className={styles.productSwiper__active}>
-						<Magnifier src={images[active].url} />
+						<Magnifier
+							className={styles.magnifier}
+							src={images[active].url}
+						/>
 						<h6>roll over image to see it zoomed!</h6>
 					</div>
 					<div className={styles.productSwiper__list}>

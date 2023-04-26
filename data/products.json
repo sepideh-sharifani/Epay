@@ -336,6 +336,22 @@
 			}
 		],
 		"questions": [],
+		"details": [
+			{
+				"name": "Series",
+				"value": "62S98EA",
+				"_id": {
+					"$oid": "yr3C1nvOTBaF"
+				}
+			},
+			{
+				"name": "RAM",
+				"value": "4 GB",
+				"_id": {
+					"$oid": "t0W0yDkjCBiO"
+				}
+			}
+		],
 		"subProducts": [
 			{
 				"sku": "sw2201138988536738",
@@ -478,7 +494,7 @@
 				"descriptionImages": [],
 				"sizes": [
 					{
-						"size": "男士标准款",
+						"size": "free",
 						"qty": 20,
 						"price": "43.99"
 					}
@@ -1458,10 +1474,6 @@
 					{
 						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681811657/products/homeAppliance/armchair/51-yUgbrJ3L._AC_SY879__lghmp3.jpg",
 						"public_url": "products/j1h8giisorvqwnxgy32x"
-					},
-					{
-						"url": "https://res.cloudinary.com/dj8tmhyce/image/upload/v1681811657/products/homeAppliance/armchair/5131ZqC1kjL.__AC_SX300_SY300_QL70_ML2__prvuun.jpg",
-						"public_url": "products/j2h8giisorvqwnxgy33x"
 					}
 				],
 				"color": {
