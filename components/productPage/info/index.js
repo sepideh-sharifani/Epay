@@ -148,10 +148,6 @@ function Infos({ product }) {
 						<BsHandbagFill />
 						Add to cart
 					</button>
-					<button className={styles.wishListBtn}>
-						<BsHeartFill />
-						wishlist
-					</button>
 					{error && <span className={styles.error}>{error}</span>}
 				</div>
 				<Details details={[product.description, ...product.details]} />
