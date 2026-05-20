@@ -1,4 +1,3 @@
-import { Inter } from 'next/font/google';
 import styles from '../styles/Home.module.scss';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -8,11 +7,8 @@ import Banner from '../components/home/banner';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import HeaderMain from '../components/menuBar/HeaderMain';
 import Main from '../components/home/main';
-import productFetch from "../data/products.json";
 
-const inter = Inter({ subsets: ['latin'] });
-
-export default function Home({ products }) {
+export default function Home() {
 
 	return (
 		<>
@@ -54,8 +50,6 @@ export default function Home({ products }) {
 export async function getServerSideProps() {
 	// const res = await fetch('http://localhost:8080/api/products');
 	// const products = await res.json();
-
-	const products = productFetch;
 
 	return {
 		props: {

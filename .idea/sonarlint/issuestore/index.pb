@@ -9,12 +9,8 @@
 pages/index.js,1\7\17f8c719689e4f3221289153187a6ca1fb24dd87
 <
 data/data.js,c\5\c5f27c465c48ac53ba1e1962a07a23afca4c30ca
-B
-data/products.json,0\8\08f01b6f6b425b755ce2ffc69b3bcc18ecb36522
 A
 package-lock.json,f\a\fa288d1472d29beccb489a676f68739ad365fc47
-B
-tsconfig/json.java,b\6\b654a8c8406608c6ebbaba8f9d4927584696aeee
 =
 tsconfig.json,6\1\61ebb9fd6e8cf9082658121d5d81e297791dacd0
 =
@@ -31,8 +27,6 @@ R
 "components/cart/emptyCart/index.js,f\d\fd7d16153ab278277d21a00c0a932164a586eb0c
 >
 store/index.js,c\f\cf8a1c7244baf2b45931f1a15e75f9280482a3df
-9
-	yarn.lock,5\3\53585a096fe3a3b96321113856ae62602995a33b
 A
 models/Product.js,4\d\4dabe27459f8a460112c83b008d17ab3b58c360f
 E
@@ -41,12 +35,8 @@ B
 models/Category.js,c\5\c573cf52ac70eb717fa378eb5bc704765546d159
 >
 models/User.js,5\9\59316e83599fe4c2c79524096be7e107fbf4b61d
-B
-pages/api/hello.js,3\7\37e1005576628acc062db0c7439893e5453dc776
 ;
 utils/db.js,2\1\21cdd15c5c95459688417d23ac91a8125c714721
-H
-pages/api/auth/signup.js,9\9\99df7ea1f0827e647dd8e02fb877ad26dbed147d
 T
 $components/Footer/styles.module.scss,e\0\e00245c8a181aace412dafa2913abb5315a70e20
 @
@@ -105,9 +95,5 @@ B
 pages/cart.js,d\1\d11b73de88c5686ce51b1c9887c478a0a2d59cc9
 G
 pages/product/[slug].js,b\e\be1d6e145e5efe400475d3369d24ffd4e3438888
-O
-pages/api/auth/[...nextauth].js,1\2\12025bf62448ff4578a06ca3d1cd8290f2e80b1d
-M
-pages/api/cloudinary/index.js,c\c\cce0c82eda2816ae286b9d5526ad7a382424ee2b
-I
-pages/api/product/[id].js,c\6\c68dc4706a1048041b51abbef2f90fc999891d30
+F
+hooks/useMediaQuery.js,5\c\5c0f960cae0f651a50d7e4caad12a50ef470b0c4
