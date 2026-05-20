@@ -1,4 +1,5 @@
-@import '../base';
+@use "../../../styles/base.scss" as *;
+
 .cart {
 	&__header {
 		height: 120px;

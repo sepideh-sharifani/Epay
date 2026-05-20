@@ -1,3 +1,5 @@
+@use "../../../styles/base.scss" as *;
+
 .category {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);

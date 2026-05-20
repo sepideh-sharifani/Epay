@@ -8,8 +8,6 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
-import { getProviders } from 'next-auth/react';
-import { signIn } from 'next-auth/react';
 import SignUpLoader from '../components/Loader/SignUpLoader';
 import { useRouter } from 'next/router';
 
@@ -160,11 +158,3 @@ const signin = ({ providers }) => {
 };
 
 export default signin;
-
-export async function getServerSideProps() {
-	const providers = await getProviders();
-	console.log(providers);
-	return {
-		props: { providers },
-	};
-}

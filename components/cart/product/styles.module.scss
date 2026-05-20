@@ -1,4 +1,5 @@
-@import '../base';
+@use "../../../styles/base.scss" as *;
+
 .product {
 	position: relative;
 	display: flex;

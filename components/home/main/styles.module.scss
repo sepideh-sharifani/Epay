@@ -1,3 +1,5 @@
+@use "../../../styles/base.scss" as *;
+
 .main {
 	display: grid;
 	grid-template-columns: 0.5fr 3fr 1fr;

@@ -1,0 +1,6 @@
+
+rjavascript:S1128	"+Remove this unused import of 'ProductMenu'.(ˆÆ°éÿÿÿÿÿJ$a2e3a882-7358-439f-be42-dbfa0fe114b5
+javascript:S1481"?Remove the declaration of the unused 'setActiveImage' variable.(“¤Æ½J$d622338f-5df5-4bff-addd-f4bcb30f851e
+~javascript:S1854"<Remove this useless assignment to variable "setActiveImage".(“¤Æ½J$9b90386c-c1b8-49ac-878b-c20d7b9774df
+±javascript:S6440"îReact Hook "useState" is called in function "product" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".(“¤Æ½J$851030ff-8273-477f-8138-1b280722c33f
+qjavascript:S6477"*Missing "key" prop for element in iterator(ÊÁÌşÿÿÿÿJ$7364af76-fac4-4ca3-bba0-961073a4cf5a

@@ -1,0 +1,13 @@
+
+wjavascript:S1128"5Remove this unused import of 'BsFillCloudUploadFill'.(ªÓúËJ$8aed26a4-83f2-40d0-8da1-44d945b12c61
+°javascript:S6440"íReact Hook "useState" is called in function "signup" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".(¯ŒÄJ$cf25d45b-e18e-4f26-9d8a-0783ec9fd450
+µjavascript:S6440"íReact Hook "useState" is called in function "signup" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".(¦çåøÿÿÿÿJ$6d1affaf-895a-498e-975c-a3895468b843
+µjavascript:S6440"íReact Hook "useState" is called in function "signup" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".(ÏŠüÇşÿÿÿÿJ$227ea722-0ec9-4807-a90d-eb607e961090
+ejavascript:S125"Remove this commented out code.(ß©òúÿÿÿÿJ$a5aa7055-6eb8-4294-82d3-7edcca083344
+xjavascript:S1481"6Remove the declaration of the unused 'image' variable.(ºŠèúJ$859aaf9e-4341-44fc-a34a-411e21defa1a
+ujavascript:S1854"3Remove this useless assignment to variable "image".(ºŠèúJ$b7dcd754-b30a-4eec-9abb-7099fee88259
+ejavascript:S125!"Remove this commented out code.(ª‰õÂùÿÿÿÿJ$f3e672b1-f48d-4668-88a5-77fd352c85b3
+kjavascript:S58695"*Remove duplicates in this character class.(«í‘(J$092fa4fb-6aeb-492c-8689-9ec3c3e3ec2a
+†javascript:S6848¦"ÂAvoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.(Ò×ÂJ$ff4dbf45-65f0-4318-9297-792dcaa3ef12
+¢javascript:S1082¦"_Visible, non-interactive elements with click handlers must have at least one keyboard listener.(Ò×ÂJ$46d0621d-a15b-47e6-9365-356b4182bfef
+ajavascript:S125İ"Remove this commented out code.(˜Éù€J$b584737b-fe26-42b2-9320-eeea672aefe3

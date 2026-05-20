@@ -1,3 +1,5 @@
+@use "../../../styles/base.scss" as *;
+
 .productSwiper {
 	display: flex;
 	flex-direction: column-reverse;

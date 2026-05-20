@@ -5,10 +5,8 @@ import { RiAccountPinCircleLine, RiArrowDropDownFill } from 'react-icons/ri';
 import Link from 'next/link';
 import { useState, useEffect, useRef } from 'react';
 import UserMenu from './UserMenu';
-import { useSession } from 'next-auth/react';
 
 const TopHeader = ({ country }) => {
-	const { data: session } = useSession();
 	const [visible, setVisible] = useState(false);
 	const menuRef = useRef();
 
@@ -50,32 +48,32 @@ const TopHeader = ({ country }) => {
 					<li className={styles.li}>
 						<span>Help</span>
 					</li>
-					<li
-						className={styles.li}
-						ref={menuRef}
-						onClick={(e) => setVisible(!visible)}>
-						{session ? (
-							<li className={styles.li}>
-								<div className={styles.flex}>
-									<img
-										alt='user'
-										src={session.user.image}
-									/>
-									<span>{session.user.name}</span>
-									<RiArrowDropDownFill />
-								</div>
-							</li>
-						) : (
-							<li className={styles.li}>
-								<div className={styles.flex}>
-									<RiAccountPinCircleLine />
-									<span>SignIn/Login</span>
-									<RiArrowDropDownFill />
-								</div>
-							</li>
-						)}
-						{visible && <UserMenu loggedIn={session} />}
-					</li>
+					{/*<li*/}
+					{/*	className={styles.li}*/}
+					{/*	ref={menuRef}*/}
+					{/*	onClick={(e) => setVisible(!visible)}>*/}
+					{/*	{session ? (*/}
+					{/*		<li className={styles.li}>*/}
+					{/*			<div className={styles.flex}>*/}
+					{/*				<img*/}
+					{/*					alt='user'*/}
+					{/*					// src={session.user.image}*/}
+					{/*				/>*/}
+					{/*				/!*<span>{session.user.name}</span>*!/*/}
+					{/*				<RiArrowDropDownFill />*/}
+					{/*			</div>*/}
+					{/*		</li>*/}
+					{/*	) : (*/}
+					{/*		<li className={styles.li}>*/}
+					{/*			<div className={styles.flex}>*/}
+					{/*				<RiAccountPinCircleLine />*/}
+					{/*				<span>SignIn/Login</span>*/}
+					{/*				<RiArrowDropDownFill />*/}
+					{/*			</div>*/}
+					{/*		</li>*/}
+					{/*	)}*/}
+					{/*	/!*{visible && <UserMenu loggedIn={session} />}*!/*/}
+					{/*</li>*/}
 				</ul>
 			</div>
 		</div>
