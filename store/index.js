@@ -1,10 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { combineReducers } from 'redux';
-import storage from 'redux-persist/lib/storage'; //to maintain data while refreshing
-import { persistReducer } from 'redux-persist';
+import { persistReducer, persistStore } from 'redux-persist';
+import storage from 'redux-persist/lib/storage';
 import cart from './cartSlice';
 
-// for storing each data (userData, cardData) we will have a reducer
 const reducers = combineReducers({ cart });
 
 const config = {
@@ -12,12 +11,19 @@ const config = {
 	storage,
 };
 
-//not to lose the data on refresh
-const reducer = persistReducer(config, reducers);
+const persistedReducer = persistReducer(config, reducers);
 
-const store = configureStore({
-	reducer: reducer,
+export const store = configureStore({
+	reducer: persistedReducer,
 	devTools: process.env.NODE_ENV !== 'production',
+	// Required to ignore non-serializable actions from redux-persist
+	middleware: (getDefaultMiddleware) =>
+		getDefaultMiddleware({
+			serializableCheck: {
+				ignoredActions: ['persist/PERSIST', 'persist/REHYDRATE'],
+			},
+		}),
 });
 
-export default store;
+// Initialize persistor only on the client
+export const persistor = typeof window !== 'undefined' ? persistStore(store) : null;

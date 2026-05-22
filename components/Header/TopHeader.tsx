@@ -6,13 +6,18 @@ import Link from 'next/link';
 import { useState, useEffect, useRef } from 'react';
 import UserMenu from './UserMenu';
 
-const TopHeader = ({ country }) => {
+
+type TopHeaderProps = {
+	country?: string;
+};
+const TopHeader = ({ country }: TopHeaderProps) => {
+
 	const [visible, setVisible] = useState(false);
-	const menuRef = useRef();
+	const menuRef = useRef<HTMLLIElement | null>(null);
 
 	useEffect(() => {
 		const closeMenu = (e) => {
-			if (!menuRef.current.contains(e.target)) {
+			if (!menuRef.current.contains(e?.target)) {
 				setVisible(false);
 			}
 		};

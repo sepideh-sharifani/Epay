@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper';
-import { flashSaleItems } from '../../../data/data.js';
+import { flashSaleItems } from '../../../data/data.tsx';
 import Card from './Cards';
 
 function FlashSale({ products }) {

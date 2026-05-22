@@ -1,15 +1,15 @@
-import { useRef, useState } from 'react';
+import {JSX, useRef, useState} from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
-import { offersArray } from '../../../../data/data.js';
+import { offersArray } from '../../../../data/data.tsx';
 import useMediaQuery from '../../../../hooks/useMediaQuery';
 
 import { Autoplay, FreeMode, Navigation, Pagination } from 'swiper';
 
-export default function Offers() {
-	const mediaQuery = useMediaQuery('(min-width:500px)');
+export default function Offers(): JSX.Element{
+	const mediaQuery:boolean = useMediaQuery('(min-width:500px)');
 	return (
 		<>
 			{mediaQuery ? (

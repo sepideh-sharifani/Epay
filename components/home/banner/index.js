@@ -1,5 +1,5 @@
 import styles from './styles.module.scss';
-import { bannerData } from '../../../data/data.js';
+import { bannerData } from '../../../data/data.tsx';
 import Card from './Card';
 
 function Banner() {

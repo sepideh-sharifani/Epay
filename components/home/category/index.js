@@ -1,5 +1,5 @@
 import styles from './styles.module.scss';
-import { productCategory } from '../../../data/data.js';
+import { productCategory } from '../../../data/data.tsx';
 import Card from './Card.js';
 
 function ProductCategory() {
